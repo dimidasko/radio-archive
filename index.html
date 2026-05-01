@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My ERT Echo Archive</title>
+    <title>My Radio Archive</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .active-bookmark { color: #ef4444; }
@@ -12,14 +12,15 @@
 <body class="bg-gray-900 text-gray-100 p-4">
 
     <header class="mb-6">
-        <h1 class="text-2xl font-bold text-orange-500">ERT Echo Browser</h1>
+        <h1 class="text-2xl font-bold text-orange-500">My Radio Archive</h1>
         <input type="text" id="searchInput" placeholder="Search sessions or guests..." 
                class="w-full mt-4 p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-orange-500">
     </header>
 
     <div id="controls" class="flex gap-2 mb-6 overflow-x-auto pb-2">
         <button onclick="loadShow('kathreftis.json')" class="bg-blue-600 px-4 py-2 rounded whitespace-nowrap">Καθρέφτης</button>
-        <button onclick="loadShow('stryxnini.json')" class="bg-purple-600 px-4 py-2 rounded whitespace-nowrap">Στρυχνίνη</button>
+        <button onclick="loadShow('prepei-na-ksereis-mixani-na-kopseis-mayra-matia.json')" class="bg-blue-600 px-4 py-2 rounded whitespace-nowrap">Πρέπει να ξέρεις μηχανή να κόψεις μαύρα μάτια</button>
+        <button onclick="loadShow('anazitontas-tin-kyria-me-ti-stryxnini.json')" class="bg-purple-600 px-4 py-2 rounded whitespace-nowrap">Αναζητώντας την κυρία με τη στρυχνίνη</button>
         <button onclick="viewBookmarks()" class="bg-red-600 px-4 py-2 rounded">❤️ Bookmarks</button>
     </div>
 
@@ -29,7 +30,7 @@
 
     <script>
         let currentData = [];
-        const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/[YOUR_USER]/[YOUR_REPO]/main/";
+        const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/dimidasko]/radio-archive/main/";
 
         async function loadShow(filename) {
             const response = await fetch(GITHUB_RAW_BASE + filename);
