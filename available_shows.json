@@ -1,0 +1,1843 @@
+[
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΑΝΑΛΥΤΙΚΟ ΔΕΛΤΙΟ ΕΙΔΗΣΕΩΝ με την Ευρυδίκη Χάντζιου",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/analytiko-deltio-eidiseon-xantziou/",
+        "air_time": "02/05 Σάββατο 14:00-15:00 | 03/05 Κυριακή 14:00-15:00",
+        "filename": "analytiko-deltio-eidiseon-xantziou.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΑΝΑΛΥΤΙΚΟ ΔΕΛΤΙΟ ΕΙΔΗΣΕΩΝ με τον Θάνο Σιαφάκα",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/analytiko-deltio-eidiseon-me-ton-thano-siafaka/",
+        "air_time": "01/05 Παρασκευή 19:00-20:00 | 04/05 Δευτέρα 19:00-20:00 | 05/05 Τρίτη 19:00-20:00 | 06/05 Τετάρτη 19:00-20:00 | 07/05 Πέμπτη 19:00-20:00",
+        "filename": "analytiko-deltio-eidiseon-me-ton-thano-siafaka.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΑΝΑΛΥΤΙΚΟ ΔΕΛΤΙΟ ΕΙΔΗΣΕΩΝ με τον Γρηγόρη Νιάκα",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/analytiko-deltio-eidiseon-me-ton-grigori-niaka/",
+        "air_time": "04/05 Δευτέρα 14:00-15:00 | 05/05 Τρίτη 14:00-15:00 | 06/05 Τετάρτη 14:00-15:00 | 07/05 Πέμπτη 14:00-15:00",
+        "filename": "analytiko-deltio-eidiseon-me-ton-grigori-niaka.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΑΠΟ ΤΙΣ 4 ΣΤΙΣ 5",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/apo-tis-4-stis-5/",
+        "air_time": "01/05 Παρασκευή 16:00-17:00 | 04/05 Δευτέρα 16:00-19:00 | 05/05 Τρίτη 16:00-18:00 | 06/05 Τετάρτη 16:00-18:00 | 07/05 Πέμπτη 16:00-18:00",
+        "filename": "apo-tis-4-stis-5.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΑΠΟΛΥΤΩΣ ΣΧΕΤΙΚΟ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/apolytos-sxetiko/",
+        "air_time": "01/05 Παρασκευή 18:00-19:00 | 05/05 Τρίτη 18:00-19:00 | 06/05 Τετάρτη 18:00-19:00 | 07/05 Πέμπτη 18:00-19:00",
+        "filename": "apolytos-sxetiko.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΔΥΟ ΣΤΙΣ 3",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/dyo-stis-3/",
+        "air_time": "02/05 Σάββατο 15:00-17:00 | 03/05 Κυριακή 15:00-17:00",
+        "filename": "dyo-stis-3.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΕΛΛΗΝΕΣ JAZZMEN",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/ellines-jazzmen/",
+        "air_time": "03/05 Κυριακή 23:00-00:00",
+        "filename": "ellines-jazzmen.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΕΝΑ ΒΙΒΛΙΟ, ΜΙΑ ΙΣΤΟΡΙΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/ena-vivliomia-istoria/",
+        "air_time": "02/05 Σάββατο 17:00-18:00 | 03/05 Κυριακή 17:00-18:00",
+        "filename": "ena-vivliomia-istoria.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΕΡΕΥΝΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/ereyna/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ereyna.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΕΧΟΥΜΕ ΚΑΙ ΛΕΜΕ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/exoume-kai-leme/",
+        "air_time": "04/05 Δευτέρα 13:00-14:00 | 05/05 Τρίτη 13:00-14:00 | 06/05 Τετάρτη 13:00-14:00 | 07/05 Πέμπτη 13:00-14:00",
+        "filename": "exoume-kai-leme.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "Η ΠΟΛΗ ΕΞΩ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/i-poli-ekso/",
+        "air_time": "02/05 Σάββατο 19:00-20:00 | 03/05 Κυριακή 19:00-20:00",
+        "filename": "i-poli-ekso.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΚΑΘΡΕΦΤΗΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/kathreftis/",
+        "air_time": "04/05 Δευτέρα 20:00-21:00 | 05/05 Τρίτη 20:00-21:00 | 06/05 Τετάρτη 20:00-21:00 | 07/05 Πέμπτη 20:00-21:00",
+        "filename": "kathreftis.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΚΥΡΙΑΚΗ ΜΕΣΗΜΕΡΙ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/kyriaki-mesimeri-proto/",
+        "air_time": "03/05 Κυριακή 12:00-14:00",
+        "filename": "kyriaki-mesimeri-proto.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΛΑΪΚΑ ΜΟΝΟΠΑΤΙΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/laika-monopatia/",
+        "air_time": "03/05 Κυριακή 02:00-05:00 | 04/05 Δευτέρα 02:00-05:00 | 05/05 Τρίτη 02:00-05:00 | 06/05 Τετάρτη 02:00-05:00 | 07/05 Πέμπτη 02:00-05:00",
+        "filename": "laika-monopatia.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΜΕΝΟΥΜΕ ΕΔΩ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/menoume-edo/",
+        "air_time": "01/05 Παρασκευή 17:00-18:00",
+        "filename": "menoume-edo.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΜΕΣΑΝΥΧΤΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/mesanyxta/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mesanyxta.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΜΟΥΣΙΚΗ ΣΕ 24 ΚΑΡΕ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/mousiki-se-24-kare/",
+        "air_time": "02/05 Σάββατο 22:00-23:00",
+        "filename": "mousiki-se-24-kare.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΜΥΘΟΙ ΚΑΙ ΓΡΙΦΟΙ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/mythoi-kai-grifoi-ertnews-radio/",
+        "air_time": "02/05 Σάββατο 12:00-13:00",
+        "filename": "mythoi-kai-grifoi-ertnews-radio.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΝΑ ΠΑΙΖΟΥΝ ΤΑ ΡΑΔΙΟΦΩΝΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/na-paizoun-ta-radiofona/",
+        "air_time": "02/05 Σάββατο 13:00-14:00",
+        "filename": "na-paizoun-ta-radiofona.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΝΑΙ ΜΕΝ ΑΛΛΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/nai-men-alla/",
+        "air_time": "04/05 Δευτέρα 12:00-13:00 | 05/05 Τρίτη 12:00-13:00 | 06/05 Τετάρτη 12:00-13:00 | 07/05 Πέμπτη 12:00-13:00",
+        "filename": "nai-men-alla.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΝΥΧΤΑ ΣΤΑΣΟΥ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/nyxta-stasou/",
+        "air_time": "04/05 Δευτέρα 00:00-02:00 | 05/05 Τρίτη 00:00-02:00 | 06/05 Τετάρτη 00:00-02:00 | 07/05 Πέμπτη 00:00-02:00",
+        "filename": "nyxta-stasou.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΞΕΚΙΝΗΜΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/ksekinima/",
+        "air_time": "02/05 Σάββατο 05:00-08:00 | 03/05 Κυριακή 05:00-08:00",
+        "filename": "ksekinima.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΟΙ ΜΠΑΛΑΔΟΡΟΙ ΤΗΣ ΚΥΡΙΑΚΗΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/oi-mpaladoroi-tis-kyriakis/",
+        "air_time": "03/05 Κυριακή 20:00-22:00",
+        "filename": "oi-mpaladoroi-tis-kyriakis.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΟΙ ΜΠΑΛΑΔΟΡΟΙ ΤΟΥ ΣΑΒΒΑΤΟΥ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/oi-mpaladoroi-tou-savvatou/",
+        "air_time": "02/05 Σάββατο 20:00-21:00",
+        "filename": "oi-mpaladoroi-tou-savvatou.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΠΡΩΙΝΕΣ ΔΙΑΔΡΟΜΕΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/proines-diadromes/",
+        "air_time": "01/05 Παρασκευή 08:00-10:00 | 04/05 Δευτέρα 08:00-10:00 | 05/05 Τρίτη 08:00-10:00 | 06/05 Τετάρτη 08:00-10:00 | 07/05 Πέμπτη 08:00-10:00",
+        "filename": "proines-diadromes.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΠΡΩΙΝΕΣ ΙΣΤΟΡΙΕΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/proines-istories/",
+        "air_time": "01/05 Παρασκευή 05:00-06:00 | 04/05 Δευτέρα 05:00-06:00 | 05/05 Τρίτη 05:00-06:00 | 06/05 Τετάρτη 05:00-06:00 | 07/05 Πέμπτη 05:00-06:00",
+        "filename": "proines-istories.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΠΡΩΙΝΗ ΠΑΡΕΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/proini-parea/",
+        "air_time": "01/05 Παρασκευή 06:00-08:00 | 04/05 Δευτέρα 06:00-08:00 | 05/05 Τρίτη 06:00-08:00 | 06/05 Τετάρτη 06:00-08:00 | 07/05 Πέμπτη 06:00-08:00",
+        "filename": "proini-parea.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΡΑΝΤΑΡ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/rantar/",
+        "air_time": "02/05 Σάββατο 10:00-12:00 | 03/05 Κυριακή 10:00-12:00",
+        "filename": "rantar.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΣΕ ΔΙΑΔΡΑΣΗ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/se-diadrasi/",
+        "air_time": "01/05 Παρασκευή 15:00-16:00 | 04/05 Δευτέρα 15:00-16:00 | 05/05 Τρίτη 15:00-16:00 | 06/05 Τετάρτη 15:00-16:00 | 07/05 Πέμπτη 15:00-16:00",
+        "filename": "se-diadrasi.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΣΕΜΝΑ ΚΑΙ ΤΑΠΕΙΝΑ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/semna-kai-tapeina/",
+        "air_time": "01/05 Παρασκευή 10:00-12:00 | 04/05 Δευτέρα 10:00-12:00 | 05/05 Τρίτη 10:00-12:00 | 06/05 Τετάρτη 10:00-12:00 | 07/05 Πέμπτη 10:00-12:00",
+        "filename": "semna-kai-tapeina.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΣΤΟ ΡΥΘΜΟ ΤΗΣ ΕΠΙΚΑΙΡΟΤΗΤΑΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/sto-rythmo-tis-epikairotitas-proto/",
+        "air_time": "02/05 Σάββατο 08:00-10:00",
+        "filename": "sto-rythmo-tis-epikairotitas-proto.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΣΥΓΚΑΤΟΙΚΟΙ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/sygkatoikoi/",
+        "air_time": "03/05 Κυριακή 18:00-19:00",
+        "filename": "sygkatoikoi.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΣΥΝΑΝΤΗΣΕΙΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/synantiseis/",
+        "air_time": "03/05 Κυριακή 22:00-23:00",
+        "filename": "synantiseis.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΤΙ ΜΑΣ ΞΗΜΕΡΩΝΕΙ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/ti-mas-ksimeronei/",
+        "air_time": "01/05 Παρασκευή 21:00-23:00 | 04/05 Δευτέρα 21:00-22:00 | 05/05 Τρίτη 21:00-22:00 | 06/05 Τετάρτη 21:00-22:00 | 07/05 Πέμπτη 21:00-22:00",
+        "filename": "ti-mas-ksimeronei.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΧΟΡΕΥΟΝΤΑΣ ΣΤΟΝ ΡΥΘΜΟ ΤΟΥ SWING",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/xoreyontas-sto-rythmo-tou-swing/",
+        "air_time": "02/05 Σάββατο 23:00-00:00",
+        "filename": "xoreyontas-sto-rythmo-tou-swing.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "CINE-ΠΩΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/cine-pos/",
+        "air_time": "02/05 Σάββατο 21:00-22:00",
+        "filename": "cine-pos.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "POP 10",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/pop-10-ertnews-radio/",
+        "air_time": "04/05 Δευτέρα 22:00-23:00 | 05/05 Τρίτη 22:00-23:00 | 06/05 Τετάρτη 22:00-23:00 | 07/05 Πέμπτη 22:00-23:00",
+        "filename": "pop-10-ertnews-radio.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "VIRAL",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/viral/",
+        "air_time": "02/05 Σάββατο 18:00-19:00",
+        "filename": "viral.json"
+    },
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "Αναλυτικο Δελτιο Ειδησεων με τη Ντονα Δρουτσα",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/analytiko-deltio-eidiseon-me-ti-ntona-droutsa-ertnews-radio/",
+        "air_time": "01/05 Παρασκευή 14:00-15:00",
+        "filename": "analytiko-deltio-eidiseon-me-ti-ntona-droutsa-ertnews-radio.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "#NaMaste @ΔΕΥΤΕΡΟ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/namaste-deytero-deytero/",
+        "air_time": "01/05 Παρασκευή 10:00-11:00 | 02/05 Σάββατο 10:00-11:00 | 03/05 Κυριακή 10:00-11:00",
+        "filename": "namaste-deytero-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΔΕΣΠΟΤΕΣ ΝΟΤΕΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/adespotes-notes/",
+        "air_time": "04/05 Δευτέρα 17:00-18:00 | 05/05 Τρίτη 17:00-18:00 | 06/05 Τετάρτη 17:00-18:00 | 07/05 Πέμπτη 17:00-18:00",
+        "filename": "adespotes-notes.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΆΛΛΗ ΜΙΑ ΜΕΡΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/alli-mia-mera/",
+        "air_time": "04/05 Δευτέρα 12:00-14:00 | 05/05 Τρίτη 12:00-14:00 | 06/05 Τετάρτη 12:00-14:00 | 07/05 Πέμπτη 12:00-14:00",
+        "filename": "alli-mia-mera.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΝΤΕΛΜΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/antelma/",
+        "air_time": "01/05 Παρασκευή 17:00-18:00 | 02/05 Σάββατο 17:00-18:00",
+        "filename": "antelma.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΠΛΑ ΚΙ ΑΓΑΠΗΜΕΝΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/apla-kai-agapimena-deytero/",
+        "air_time": "04/05 Δευτέρα 10:00-11:55 | 05/05 Τρίτη 10:00-11:55 | 06/05 Τετάρτη 10:00-11:55 | 07/05 Πέμπτη 10:00-11:55",
+        "filename": "apla-kai-agapimena-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΒΟΛΤΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/volta-deytero/",
+        "air_time": "04/05 Δευτέρα 08:00-10:00 | 05/05 Τρίτη 08:00-10:00 | 06/05 Τετάρτη 08:00-10:00 | 07/05 Πέμπτη 08:00-10:00",
+        "filename": "volta-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΔΗΜΟΣΙΑ ΔΙΑΒΟΥΛΕΥΣΗ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/dimosia-diavouleysi-deytero/",
+        "air_time": "03/05 Κυριακή 21:00-22:00",
+        "filename": "dimosia-diavouleysi-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΕΔΩ ΕΙΝΑΙ ΤΟ ΤΑΞΙΔΙ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/edo-einai-to-taksidi-deytero-programma/",
+        "air_time": "04/05 Δευτέρα 18:00-19:55 | 05/05 Τρίτη 18:00-19:55 | 06/05 Τετάρτη 18:00-19:55 | 07/05 Πέμπτη 18:00-19:55",
+        "filename": "edo-einai-to-taksidi-deytero-programma.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΕΣΥ ΠΟΥ ΔΕ ΜΙΛΑΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/esy-pou-de-milas-deytero/",
+        "air_time": "03/05 Κυριακή 17:00-18:00",
+        "filename": "esy-pou-de-milas-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΕΧΕΙ Η ΖΩΗ ΓΥΡΙΣΜΑΤΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/exei-i-zoi-gyrismata/",
+        "air_time": "01/05 Παρασκευή 08:00-10:00 | 02/05 Σάββατο 08:00-10:00 | 03/05 Κυριακή 08:00-10:00",
+        "filename": "exei-i-zoi-gyrismata.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΗΜΕΡΟΛΟΓΙΟ ΚΑΤΑΣΤΡΩΜΑΤΟΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/imerologio-katastromatos-deftero/",
+        "air_time": "04/05 Δευτέρα 20:00-21:00 | 05/05 Τρίτη 20:00-21:00 | 06/05 Τετάρτη 20:00-21:00 | 07/05 Πέμπτη 20:00-21:00",
+        "filename": "imerologio-katastromatos-deftero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΙΣΤΟΡΙΕΣ ΚΛΑΣΙΚΟΥ ΡΑΔΙΟΦΩΝΟΥ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/istories-klasikou-radiofonou-deytero/",
+        "air_time": "01/05 Παρασκευή 20:00-21:00 | 02/05 Σάββατο 20:00-21:00 | 03/05 Κυριακή 20:00-21:00",
+        "filename": "istories-klasikou-radiofonou-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΚΑΙΝΑ ΔΑΙΜΟΝΙΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/kaina-daimonia-deytero/",
+        "air_time": "03/05 Κυριακή 23:00-00:00",
+        "filename": "kaina-daimonia-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΚΟΚΚΙΝΗ ΣΒΟΥΡΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/kokkini-svoura/",
+        "air_time": "04/05 Δευτέρα 07:55-08:00 | 05/05 Τρίτη 07:55-08:00 | 06/05 Τετάρτη 07:55-08:00 | 07/05 Πέμπτη 07:55-08:00",
+        "filename": "kokkini-svoura.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΑΖΙ ΤΗ ΝΥΧΤΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/mazi-ti-nyxta/",
+        "air_time": "04/05 Δευτέρα 00:00-02:00 | 05/05 Τρίτη 00:00-02:00 | 06/05 Τετάρτη 00:00-02:00 | 07/05 Πέμπτη 00:00-02:00",
+        "filename": "mazi-ti-nyxta.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΕ ΜΙΑ ΑΓΚΑΛΙΑ ΒΙΒΛΙΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/me-mia-agkalia-vivlia/",
+        "air_time": "01/05 Παρασκευή 16:00-17:00 | 02/05 Σάββατο 16:00-17:00",
+        "filename": "me-mia-agkalia-vivlia.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΕ ΤΑ ΠΟΔΙΑ ΜΕΧΡΙ ΤΗΝ ΑΛΗΘΕΙΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/me-ta-podia-mexri-tin-alitheia/",
+        "air_time": "03/05 Κυριακή 22:00-23:00",
+        "filename": "me-ta-podia-mexri-tin-alitheia.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΕΛΩΔΙΚΟ ΑΝΤΙΔΟΤΟ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/melodiko-antidoto/",
+        "air_time": "01/05 Παρασκευή 14:00-15:00 | 02/05 Σάββατο 14:00-15:00 | 03/05 Κυριακή 14:00-15:00",
+        "filename": "melodiko-antidoto.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΗ ΜΕ ΞΥΠΝΑΣ ΑΠ’ ΤΙΣ ΕΞΙ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/mi-me-ksypnas-ap-tis-eksi-deytero/",
+        "air_time": "04/05 Δευτέρα 06:00-07:55 | 05/05 Τρίτη 06:00-07:55 | 06/05 Τετάρτη 06:00-07:55 | 07/05 Πέμπτη 06:00-07:55",
+        "filename": "mi-me-ksypnas-ap-tis-eksi-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΝΕΑ ΕΛΛΗΝΙΚΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/nea-ellinika-deytero/",
+        "air_time": "04/05 Δευτέρα 11:55-12:00 | 04/05 Δευτέρα 19:55-20:00 | 05/05 Τρίτη 11:55-12:00 | 05/05 Τρίτη 19:55-20:00 | 06/05 Τετάρτη 11:55-12:00 | 06/05 Τετάρτη 19:55-20:00 | 07/05 Πέμπτη 11:55-12:00 | 07/05 Πέμπτη 19:55-20:00",
+        "filename": "nea-ellinika-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΑΜΕ ΕΚΕΙ ΠΟΥ ΛΕΝ ΤΡΑΓΟΥΔΙΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/pame-ekei-pou-len-tragoudia-deytero/",
+        "air_time": "01/05 Παρασκευή 11:00-13:00 | 02/05 Σάββατο 11:00-13:00 | 03/05 Κυριακή 11:00-13:00",
+        "filename": "pame-ekei-pou-len-tragoudia-deytero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΑΡ’ ΤΟ ΑΛΛΙΩΣ…ΘΑ ΒΡΕΙΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/par-to-allios-tha-vreis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "par-to-allios-tha-vreis.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΑΝΤΟΣ ΚΑΙΡΟΥ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/pantos-kairo/",
+        "air_time": "04/05 Δευτέρα 14:00-15:00 | 05/05 Τρίτη 14:00-15:00 | 06/05 Τετάρτη 14:00-15:00 | 07/05 Πέμπτη 14:00-15:00",
+        "filename": "pantos-kairo.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΛΑΝΟΔΙΕΣ ΜΟΥΣΙΚΕΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/planodies-mousikes-deftero/",
+        "air_time": "04/05 Δευτέρα 22:00-00:00 | 05/05 Τρίτη 22:00-00:00 | 06/05 Τετάρτη 22:00-00:00 | 07/05 Πέμπτη 22:00-00:00",
+        "filename": "planodies-mousikes-deftero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΡΕΠΕΙ ΝΑ ΞΕΡΕΙΣ ΜΗΧΑΝΗ ΝΑ ΚΟΨΕΙΣ ΜΑΥΡΑ ΜΑΤΙΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/prepei-na-ksereis-mixani-na-kopseis-mayra-matia/",
+        "air_time": "04/05 Δευτέρα 21:00-22:00 | 05/05 Τρίτη 21:00-22:00 | 06/05 Τετάρτη 21:00-22:00 | 07/05 Πέμπτη 21:00-22:00",
+        "filename": "prepei-na-ksereis-mixani-na-kopseis-mayra-matia.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΡΑΝΤΕΒΟΥ ΤΗΝ ΚΥΡΙΑΚΗ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/rantevou-tin-kyriaki/",
+        "air_time": "03/05 Κυριακή 18:00-20:00",
+        "filename": "rantevou-tin-kyriaki.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΡΟΚ ΣΥΝΑΝΑΣΤΡΟΦΕΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/rok-synanastrofes-deftero/",
+        "air_time": "04/05 Δευτέρα 15:00-16:00 | 05/05 Τρίτη 15:00-16:00 | 06/05 Τετάρτη 15:00-16:00 | 07/05 Πέμπτη 15:00-16:00",
+        "filename": "rok-synanastrofes-deftero.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΕ ΔΡΟΜΟΥΣ ΛΑΪΚΟΥΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/se-dromous-laikous/",
+        "air_time": "03/05 Κυριακή 00:00-01:00",
+        "filename": "se-dromous-laikous.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΤΙΓΜΕΣ ΑΡΧΕΙΟΥ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/stigmes-arxeiou/",
+        "air_time": "Not listed in weekly program",
+        "filename": "stigmes-arxeiou.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟ ΔΕΝΤΡΟ ΤΗΣ ΜΟΥΣΙΚΗΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/to-dentro-tis-mousikis/",
+        "air_time": "01/05 Παρασκευή 13:00-14:00 | 02/05 Σάββατο 13:00-14:00 | 03/05 Κυριακή 13:00-14:00",
+        "filename": "to-dentro-tis-mousikis.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟ ΚΛΕΙΔΙ ΤΟΥ SOL",
+        "url": "https://www.ertecho.gr/radio/deftero/show/to-kleidi-tou-sol/",
+        "air_time": "04/05 Δευτέρα 16:00-17:00 | 05/05 Τρίτη 16:00-17:00 | 06/05 Τετάρτη 16:00-17:00 | 07/05 Πέμπτη 16:00-17:00",
+        "filename": "to-kleidi-tou-sol.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "70 Χρόνια Δεύτερο-ΔΕΥΤΕΡΟ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/70-xronia-deytero/",
+        "air_time": "Not listed in weekly program",
+        "filename": "70-xronia-deytero.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "10′ ΑΚΟΜΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/10-akoma/",
+        "air_time": "04/05 Δευτέρα 20:00-20:10 | 05/05 Τρίτη 20:00-20:10 | 06/05 Τετάρτη 20:00-20:10 | 07/05 Πέμπτη 20:00-20:10",
+        "filename": "10-akoma.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΔΡΑΞΤΕ ΤΟΝ ΗΧΟ",
+        "url": "https://www.ertecho.gr/radio/trito/show/adrakste-ton-ixo/",
+        "air_time": "01/05 Παρασκευή 10:00-11:00 | 01/05 Παρασκευή 00:00-01:00 | 02/05 Σάββατο 10:00-11:00 | 02/05 Σάββατο 00:00-01:00 | 03/05 Κυριακή 10:00-11:00 | 03/05 Κυριακή 00:00-01:00 | 07/05 Πέμπτη 16:00-17:00",
+        "filename": "adrakste-ton-ixo.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΛΛΟΣ ΠΛΑΝΗΤΗΣ, ΑΛΛΗ ΑΛΕΠΟΥ, ΑΛΛΟ ΤΡΙΑΝΤΑΦΥΛΛΟ",
+        "url": "https://www.ertecho.gr/radio/trito/show/allos-planitis-alli-alepou-allo-triantafyllo/",
+        "air_time": "04/05 Δευτέρα 18:00-19:00 | 06/05 Τετάρτη 18:00-19:00",
+        "filename": "allos-planitis-alli-alepou-allo-triantafyllo.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΛΧΗΜΕΙΕΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/alximeies-trito/",
+        "air_time": "03/05 Κυριακή 12:00-13:00 | 04/05 Δευτέρα 16:00-17:00 | 05/05 Τρίτη 16:00-17:00",
+        "filename": "alximeies-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΝΑΖΗΤΩΝΤΑΣ ΤΗΝ ΚΥΡΙΑ ΜΕ ΤΗ ΣΤΡΥΧΝΙΝΗ",
+        "url": "https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/",
+        "air_time": "04/05 Δευτέρα 12:00-13:00 | 05/05 Τρίτη 12:00-13:00 | 06/05 Τετάρτη 12:00-13:00 | 07/05 Πέμπτη 12:00-13:00",
+        "filename": "anazitontas-tin-kyria-me-ti-stryxnini.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΠΟ ΤΗ ΜΟΥΣΙΚΗ ΤΟΥΣ ΜΑΘΑΙΝΩ ΤΗ ΖΩΗ ΤΟΥΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/apo-ti-mousiki-tous-mathaino-ti-zoi-tous/",
+        "air_time": "01/05 Παρασκευή 17:00-18:00 | 02/05 Σάββατο 17:00-18:00 | 03/05 Κυριακή 17:00-18:00 | 05/05 Τρίτη 14:00-15:00 | 06/05 Τετάρτη 14:00-15:00",
+        "filename": "apo-ti-mousiki-tous-mathaino-ti-zoi-tous.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΥΤΟΜΑΤΟΣ ΤΗΛΕΦΩΝΗΤΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/aytomatos-tilefonitis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "aytomatos-tilefonitis.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΒΡΑΔΙΝΕΣ ΑΡΜΟΝΙΕΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/vradines-armonies-trito/",
+        "air_time": "04/05 Δευτέρα 23:00-00:00 | 05/05 Τρίτη 23:00-00:00 | 06/05 Τετάρτη 23:00-00:00 | 07/05 Πέμπτη 23:00-00:00",
+        "filename": "vradines-armonies-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΔΥΟ ΛΕΠΤΑ ΤΕΧΝΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/dyo-lepta-texnis/",
+        "air_time": "04/05 Δευτέρα 09:55-10:00 | 04/05 Δευτέρα 17:00-17:05 | 05/05 Τρίτη 09:55-10:00 | 05/05 Τρίτη 17:00-17:05 | 06/05 Τετάρτη 09:55-10:00 | 06/05 Τετάρτη 17:00-17:05 | 07/05 Πέμπτη 09:55-10:00 | 07/05 Πέμπτη 17:00-17:05",
+        "filename": "dyo-lepta-texnis.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΔΩΜΑΤΙΟ 432",
+        "url": "https://www.ertecho.gr/radio/trito/show/domatio-432/",
+        "air_time": "06/05 Τετάρτη 20:10-21:55",
+        "filename": "domatio-432.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΕΓΝΑΤΙΑ ΟΔΟΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/egnatia-odos/",
+        "air_time": "01/05 Παρασκευή 07:00-08:00 | 02/05 Σάββατο 07:00-08:00 | 03/05 Κυριακή 07:00-08:00",
+        "filename": "egnatia-odos.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΕΛΛΕΙΠΤΙΚΑ ΠΟΡΤΡΑΙΤΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/elleiptika-portraita-trito/",
+        "air_time": "01/05 Παρασκευή 20:00-20:30 | 02/05 Σάββατο 20:00-20:30 | 03/05 Κυριακή 20:00-20:30",
+        "filename": "elleiptika-portraita-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΕΞΙ ΧΟΡΔΕΣ ΣΑΝ ΜΙΑ ΟΡΧΗΣΤΡΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/eksi-xordes-san-mia-orxistra-trito/",
+        "air_time": "01/05 Παρασκευή 12:00-13:00 | 02/05 Σάββατο 12:00-13:00",
+        "filename": "eksi-xordes-san-mia-orxistra-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Η ΓΩΝΙΑ ΤΟΥ ΣΥΛΛΕΚΤΗ",
+        "url": "https://www.ertecho.gr/radio/trito/show/i-gonia-tou-syllekti/",
+        "air_time": "01/05 Παρασκευή 15:00-16:00 | 02/05 Σάββατο 15:00-16:00 | 03/05 Κυριακή 15:00-16:00",
+        "filename": "i-gonia-tou-syllekti.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Η ΕΠΟΧΗ ΤΩΝ ΕΙΚΟΝΩΝ ΣΤΟ ΤΡΙΤΟ",
+        "url": "https://www.ertecho.gr/radio/trito/show/i-epoxi-ton-eikonon/",
+        "air_time": "01/05 Παρασκευή 18:00-19:00 | 02/05 Σάββατο 18:00-19:00",
+        "filename": "i-epoxi-ton-eikonon.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Η ΚΑΡΔΙΑ ΤΟΥ ΣΚΟΤΟΥΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/i-kardia-tou-skotous/",
+        "air_time": "03/05 Κυριακή 22:30-23:00",
+        "filename": "i-kardia-tou-skotous.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Η ΜΟΥΣΑ ΤΟΥ ΜΙΟΥΖΙΚΑΛ",
+        "url": "https://www.ertecho.gr/radio/trito/show/i-mousa-tou-miouzikal/",
+        "air_time": "Not listed in weekly program",
+        "filename": "i-mousa-tou-miouzikal.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Η ΣΚΟΤΕΙΝΗ ΚΥΡΙΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/i-skoteini-kyria/",
+        "air_time": "01/05 Παρασκευή 22:30-23:00 | 02/05 Σάββατο 22:30-23:00",
+        "filename": "i-skoteini-kyria.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΗΜΕΡΟΛΟΓΙΟ ΤΕΧΝΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/imerologio-texnis/",
+        "air_time": "05/05 Τρίτη 18:00-19:00",
+        "filename": "imerologio-texnis.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΚΛΑΣΙΚΑ… ΚΑΙ ΑΛΛΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/klasika-kai-alla-trito/",
+        "air_time": "01/05 Παρασκευή 08:00-10:00 | 02/05 Σάββατο 08:00-10:00 | 03/05 Κυριακή 08:00-10:00",
+        "filename": "klasika-kai-alla-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΚΡΙΤΙΚΟΣ ΛΟΓΟΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/kritikos-logos/",
+        "air_time": "04/05 Δευτέρα 21:00-21:55",
+        "filename": "kritikos-logos.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΑΘΗΜΑΤΑ ΠΙΑΝΟΥ",
+        "url": "https://www.ertecho.gr/radio/trito/show/mathimata-pianou-trito/",
+        "air_time": "07/05 Πέμπτη 19:00-20:00",
+        "filename": "mathimata-pianou-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΙΚΡΕΣ ΔΕΞΑΜΕΝΕΣ ΜΕΛΑΝΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/mikres-deksamenes-melanis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mikres-deksamenes-melanis.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΟΝΑΧΗ ΕΓΝΟΙΑ Η ΓΛΩΣΣΑ ΜΟΥ",
+        "url": "https://www.ertecho.gr/radio/trito/show/monaxi-egnoia-i-glossa-mou/",
+        "air_time": "04/05 Δευτέρα 09:50-09:55 | 04/05 Δευτέρα 21:55-22:00 | 05/05 Τρίτη 09:50-09:55 | 05/05 Τρίτη 21:55-22:00 | 06/05 Τετάρτη 09:50-09:55 | 06/05 Τετάρτη 21:55-22:00 | 07/05 Πέμπτη 09:50-09:55 | 07/05 Πέμπτη 21:55-22:00",
+        "filename": "monaxi-egnoia-i-glossa-mou.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΟΥΣΙΚΕΣ ΣΤΙΓΜΕΣ ΣΤΟ ΧΡΟΝΟ",
+        "url": "https://www.ertecho.gr/radio/trito/show/mousikes-stigmes-sto-xrono/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mousikes-stigmes-sto-xrono.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΟΥΣΙΚΗ ΜΙΚΡΟΥ ΜΗΚΟΥΣ-ΜΙΝΙΑΤΟΥΡΕΣ;",
+        "url": "https://www.ertecho.gr/radio/trito/show/mousiki-mikrou-mikous-miniatoures-trito/",
+        "air_time": "04/05 Δευτέρα 17:55-18:00 | 05/05 Τρίτη 17:55-18:00 | 06/05 Τετάρτη 17:55-18:00 | 07/05 Πέμπτη 17:55-18:00",
+        "filename": "mousiki-mikrou-mikous-miniatoures-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΜΥΘΟΝ ΑΓΑΣΣΑΜΕΝΟΙ",
+        "url": "https://www.ertecho.gr/radio/trito/show/mython-agassamenoi/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mython-agassamenoi.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΝΥΧΤΕΡΙΝΗ ΠΤΗΣΗ",
+        "url": "https://www.ertecho.gr/radio/trito/show/nyxterini-ptisi/",
+        "air_time": "Not listed in weekly program",
+        "filename": "nyxterini-ptisi.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Ο ΗΧΟΣ ΤΗΣ ΑΥΓΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/o-ixos-tis-aygis-trito/",
+        "air_time": "04/05 Δευτέρα 07:00-08:00 | 05/05 Τρίτη 07:00-08:00 | 06/05 Τετάρτη 07:00-08:00 | 07/05 Πέμπτη 07:00-08:00",
+        "filename": "o-ixos-tis-aygis-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Ο ΗΧΟΣ ΤΗΣ ΝΥΧΤΑΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/o-ixos-tis-nyxtas-trito/",
+        "air_time": "04/05 Δευτέρα 22:00-23:00 | 06/05 Τετάρτη 22:00-23:00",
+        "filename": "o-ixos-tis-nyxtas-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Ο ΗΧΟΣ ΤΗΣ ΠΡΩΤΗΣ ΗΛΙΑΧΤΙΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/o-ixos-tis-protis-iliaxtidas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "o-ixos-tis-protis-iliaxtidas.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Ο ΗΧΟΣ ΤΟΥ ΑΠΟΓΕΥΜΑΤΟΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/o-ixos-tou-apogeymatos-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "o-ixos-tou-apogeymatos-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Ο ΘΗΣΑΥΡΟΣ ΤΗΣ ΠΙΣΩ ΑΥΛΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/o-thisayros-tis-piso-aylis-trito/",
+        "air_time": "01/05 Παρασκευή 16:00-17:00 | 02/05 Σάββατο 16:00-17:00 | 03/05 Κυριακή 16:00-17:00",
+        "filename": "o-thisayros-tis-piso-aylis-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Ο ΛΟΓΙΟΣ ΘΕΟΔΩΡΑΚΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/o-logios-theodorakis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "o-logios-theodorakis.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Ο ΣΥΝΘΕΤΗΣ ΤΗΣ ΕΒΔΟΜΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/o-synthetis-tis-evdomadas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "o-synthetis-tis-evdomadas.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΙ ΘΗΣΑΥΡΟΙ ΤΟΥ ΤΡΙΤΟΥ – ΕΠΙΛΟΓΕΣ 70 ΧΡΟΝΩΝ ΙΣΤΟΡΙΑΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/oi-thisayroi-tou-tritou-epiloges-70-xronon-istorias-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "oi-thisayroi-tou-tritou-epiloges-70-xronon-istorias-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΔΗΓΟΣ ΟΡΧΗΣΤΡΑΣ ΓΙΑ ΝΕΟΥΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/odigos-orxistras-gia-neous/",
+        "air_time": "07/05 Πέμπτη 14:00-15:00",
+        "filename": "odigos-orxistras-gia-neous.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΛΑ ΤΑ ΠΡΩΙΝΑ ΤΟΥ ΤΡΙΤΟΥ / ΑΙΣΘΗΜΑΤΙΚΗ ΑΓΩΓΗ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ola-ta-proina-tou-tritou/",
+        "air_time": "04/05 Δευτέρα 08:00-09:50 | 05/05 Τρίτη 08:00-09:50 | 06/05 Τετάρτη 08:00-09:50 | 07/05 Πέμπτη 08:00-09:50",
+        "filename": "ola-ta-proina-tou-tritou.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΛΑ ΤΑ ΠΡΩΙΝΑ ΤΟΥ ΤΡΙΤΟΥ / ΕΚΠΟΜΠΗ ΜΑΖΙ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ola-ta-proina-tou-tritou-ekpompi-mazi-trito/",
+        "air_time": "06/05 Τετάρτη 11:00-12:00",
+        "filename": "ola-ta-proina-tou-tritou-ekpompi-mazi-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΛΑ ΤΑ ΠΡΩΙΝΑ ΤΟΥ ΤΡΙΤΟΥ / Η ΑΠΟΔΡΑΣΗ ΤΩΝ 11",
+        "url": "https://www.ertecho.gr/radio/trito/show/ola-ta-proina-tou-tritou-i-apodrasi-ton-11-trito/",
+        "air_time": "07/05 Πέμπτη 11:00-12:00",
+        "filename": "ola-ta-proina-tou-tritou-i-apodrasi-ton-11-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΛΑ ΤΑ ΠΡΩΙΝΑ ΤΟΥ ΤΡΙΤΟΥ / ΕΝΤΟΣ ΚΑΙ ΕΚΤΟΣ ΠΟΡΕΙΑΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ola-ta-proina-tou-tritou-entos-kai-ektos-poreias-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ola-ta-proina-tou-tritou-entos-kai-ektos-poreias-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΛΑ ΤΑ ΠΡΩΙΝΑ ΤΟΥ ΤΡΙΤΟΥ /ΠΡΩΙΝΟ ΚΑΙ ΚΑΤΙ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ola-ta-proina-tou-tritou-proino-kai-kati-trito/",
+        "air_time": "04/05 Δευτέρα 11:00-12:00 | 05/05 Τρίτη 11:00-12:00",
+        "filename": "ola-ta-proina-tou-tritou-proino-kai-kati-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΛΑ ΤΑ ΠΡΩΙΝΑ ΤΟΥ ΤΡΙΤΟΥ ΣΗΜΕΡΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ola-ta-proina-tou-tritou-simera/",
+        "air_time": "04/05 Δευτέρα 10:00-11:00 | 05/05 Τρίτη 10:00-11:00 | 06/05 Τετάρτη 10:00-11:00 | 07/05 Πέμπτη 10:00-11:00",
+        "filename": "ola-ta-proina-tou-tritou-simera.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΛΑ ΤΑ ΠΡΩΙΝΑ ΤΟΥ ΤΡΙΤΟΥ ΚΑΙ ΤΩΡΑ ΞΕΚΙΝΑΕΙ Η ΠΕΡΙΠΕΤΕΙΑ ΤΗΣ ΜΟΥΣΙΚΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ola-ta-proina-tou-tritou-kai-tora-ksekinaei-i-peripeteia-tis-mousikis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ola-ta-proina-tou-tritou-kai-tora-ksekinaei-i-peripeteia-tis-mousikis.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΟΤΤΩ ΤΙΣ ΕΡΑΤΑΙ",
+        "url": "https://www.ertecho.gr/radio/trito/show/otto-tis-eratai/",
+        "air_time": "Not listed in weekly program",
+        "filename": "otto-tis-eratai.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΑΡΑΞΕΝΟΣ ΕΛΚΥΣΤΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/paraksenos-elkystis/",
+        "air_time": "04/05 Δευτέρα 00:00-01:00 | 05/05 Τρίτη 00:00-01:00",
+        "filename": "paraksenos-elkystis.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΙΝΕΛΑ ΓΙΑ ΧΡΩΜΑΤΑ ΚΑΙ ΟΡΧΗΣΤΡΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/pinela-gia-xromata-kai-orxistra/",
+        "air_time": "06/05 Τετάρτη 00:00-01:00 | 07/05 Πέμπτη 00:00-01:00",
+        "filename": "pinela-gia-xromata-kai-orxistra.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΟΥ ΠΑΕΙ Η ΜΟΥΣΙΚΗ ΟΤΑΝ ΔΕΝ ΤΗΝ ΑΚΟΥΜΕ ΠΙΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/pou-paei-i-mousiki-otan-den-tin-akoume-pia-trito/",
+        "air_time": "03/05 Κυριακή 18:00-19:00",
+        "filename": "pou-paei-i-mousiki-otan-den-tin-akoume-pia-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΗΜΕΙΟ ART",
+        "url": "https://www.ertecho.gr/radio/trito/show/simeio-art/",
+        "air_time": "Not listed in weekly program",
+        "filename": "simeio-art.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΤΟΙΧΕΙΑ ΓΙΑ ΤΗΝ ΑΓΟΡΑ ΧΑΛΚΟΥ",
+        "url": "https://www.ertecho.gr/radio/trito/show/stoixeia-gia-tin-agora-xalkou/",
+        "air_time": "Not listed in weekly program",
+        "filename": "stoixeia-gia-tin-agora-xalkou.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΤΟΝ ΚΗΠΟ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ston-kipo-trito/",
+        "air_time": "04/05 Δευτέρα 17:05-17:55 | 05/05 Τρίτη 17:05-17:55 | 06/05 Τετάρτη 17:05-17:55 | 07/05 Πέμπτη 17:05-17:55",
+        "filename": "ston-kipo-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΥΝΑΥΛΙΕΣ ΔΙΧΩΣ ΣΥΝΟΡΑ / ACCELERANTO",
+        "url": "https://www.ertecho.gr/radio/trito/show/accelerando-trito/",
+        "air_time": "07/05 Πέμπτη 20:10-21:55",
+        "filename": "accelerando-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΥΝΑΥΛΙΕΣ ΔΙΧΩΣ ΣΥΝΟΡΑ / ΑΦΗΡΗΜΕΝΟΣ ΤΑΧΥΔΡΟΜΟΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/afirimenos-taxydromos-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "afirimenos-taxydromos-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΣΥΝΑΥΛΙΕΣ ΔΙΧΩΣ ΣΥΝΟΡΑ / ΚΛΑΣΙΚΑ ΗΧΟΓΡΑΦΗΜΕΝΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/klasika-ixografimena-trito/",
+        "air_time": "05/05 Τρίτη 20:10-21:55",
+        "filename": "klasika-ixografimena-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΑ ΜΗΛΑ ΤΩΝ ΕΣΠΕΡΙΔΩΝ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ta-mila-ton-esperidon/",
+        "air_time": "03/05 Κυριακή 14:00-15:00",
+        "filename": "ta-mila-ton-esperidon.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΑ ΜΗΛΑ ΤΩΝ ΕΣΠΕΡΙΔΩΝ/ΚΑΙ ΕΚ ΓΥΝΑΙΚΟΣ ΤΑ ΚΡΕΙΤΤΩ",
+        "url": "https://www.ertecho.gr/radio/trito/show/ta-mila-ton-esperdion-kai-ek-gynaikos-ta-kreitto-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ta-mila-ton-esperdion-kai-ek-gynaikos-ta-kreitto-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΙΜΗΣ ΕΝΕΚΕΝ",
+        "url": "https://www.ertecho.gr/radio/trito/show/timis-eneken/",
+        "air_time": "01/05 Παρασκευή 13:00-14:00 | 02/05 Σάββατο 13:00-14:00",
+        "filename": "timis-eneken.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟ ΔΕΝΤΡΟ ΤΗΣ JAZZ",
+        "url": "https://www.ertecho.gr/radio/trito/show/to-dentro-tis-jazz-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "to-dentro-tis-jazz-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟ ΔΙΑΧΡΟΝΙΚΟ ΔΙΑΔΙΚΤΥΟ",
+        "url": "https://www.ertecho.gr/radio/trito/show/to-diaxroniko-diadiktyo-koina-afigimata-anamesa-stis-texnes/",
+        "air_time": "03/05 Κυριακή 23:00-00:00",
+        "filename": "to-diaxroniko-diadiktyo-koina-afigimata-anamesa-stis-texnes.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟ ΘΕΑΤΡΟ ΤΗΣ ΚΥΡΙΑΚΗΣ ΣΤΟ ΤΡΙΤΟ",
+        "url": "https://www.ertecho.gr/radio/trito/show/to-theatro-tis-kyriakis-sto-trito/",
+        "air_time": "03/05 Κυριακή 20:30-22:30",
+        "filename": "to-theatro-tis-kyriakis-sto-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟ ΜΟΥΣΙΚΟ ΡΟΛΟΪ ΤΟΥ ΕΙΚΟΣΤΟΥ ΑΙΩΝΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/to-mousiko-roloi-tou-eikostou-aiona/",
+        "air_time": "03/05 Κυριακή 13:00-14:00",
+        "filename": "to-mousiko-roloi-tou-eikostou-aiona.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟ ΦΑΝΤΑΣΤΙΚΟ ΜΟΥΣΕΙΟ ΤΗΣ ΜΟΥΣΙΚΗΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/to-fantastiko-mouseio-tis-mousikis-trito/",
+        "air_time": "01/05 Παρασκευή 11:00-12:00 | 02/05 Σάββατο 11:00-12:00 | 03/05 Κυριακή 11:00-12:00 | 06/05 Τετάρτη 16:00-17:00",
+        "filename": "to-fantastiko-mouseio-tis-mousikis-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΤΟΥ ΚΥΚΛΟΥ ΤΑ ΓΥΡΙΣΜΑΤΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/tou-kyklou-ta-gyrismata/",
+        "air_time": "01/05 Παρασκευή 14:00-15:00 | 02/05 Σάββατο 14:00-15:00 | 04/05 Δευτέρα 19:00-20:00",
+        "filename": "tou-kyklou-ta-gyrismata.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ARS NOVA",
+        "url": "https://www.ertecho.gr/radio/trito/show/ars-nova-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ars-nova-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "BOOKFLY",
+        "url": "https://www.ertecho.gr/radio/trito/show/bookfly/",
+        "air_time": "01/05 Παρασκευή 19:00-20:00 | 02/05 Σάββατο 19:00-20:00",
+        "filename": "bookfly.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "EBU ΣΥΝΑΥΛΙΕΣ ΔΙΧΩΣ ΣΥΝΟΡΑ",
+        "url": "https://www.ertecho.gr/radio/trito/show/synaylies-dichos-synora/",
+        "air_time": "Not listed in weekly program",
+        "filename": "synaylies-dichos-synora.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "FACTORY ΙΔΕΕΣ/ΤΕΧΝΕΣ",
+        "url": "https://www.ertecho.gr/radio/trito/show/factory-idees-texnes/",
+        "air_time": "03/05 Κυριακή 19:00-20:00",
+        "filename": "factory-idees-texnes.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "INTERCITY",
+        "url": "https://www.ertecho.gr/radio/trito/show/intercity/",
+        "air_time": "04/05 Δευτέρα 20:10-21:00",
+        "filename": "intercity.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "JAZZ IN THE CITY",
+        "url": "https://www.ertecho.gr/radio/trito/show/jazz-in-the-city/",
+        "air_time": "Not listed in weekly program",
+        "filename": "jazz-in-the-city.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "MUSICA RESERVATA",
+        "url": "https://www.ertecho.gr/radio/trito/show/musica-reservata/",
+        "air_time": "Not listed in weekly program",
+        "filename": "musica-reservata.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "NOTTURNO",
+        "url": "https://www.ertecho.gr/radio/trito/show/notturno/",
+        "air_time": "01/05 Παρασκευή 01:00-07:00 | 02/05 Σάββατο 01:00-07:00 | 03/05 Κυριακή 01:00-07:00 | 04/05 Δευτέρα 01:00-07:00 | 05/05 Τρίτη 01:00-07:00 | 06/05 Τετάρτη 01:00-07:00 | 07/05 Πέμπτη 01:00-07:00",
+        "filename": "notturno.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "OPERA OMNIA",
+        "url": "https://www.ertecho.gr/radio/trito/show/opera-omnia/",
+        "air_time": "01/05 Παρασκευή 20:30-22:30 | 02/05 Σάββατο 20:30-22:30",
+        "filename": "opera-omnia.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Μια Φωνη στον Καθρεφτη",
+        "url": "https://www.ertecho.gr/radio/trito/show/mia-foni-ston-kathrefti-trito/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mia-foni-ston-kathrefti-trito.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "Η Καμαρα με τα Μυστικα",
+        "url": "https://www.ertecho.gr/radio/trito/show/i-kamara-me-ta-mystika-trito/",
+        "air_time": "06/05 Τετάρτη 19:00-20:00",
+        "filename": "i-kamara-me-ta-mystika-trito.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ΑΝΑΣΑ ΤΗΣ ΓΗΣ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/anasa-tis-gis/",
+        "air_time": "01/05 Παρασκευή 17:00-18:00 | 02/05 Σάββατο 17:00-18:00 | 03/05 Κυριακή 17:00-18:00",
+        "filename": "anasa-tis-gis.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ΑΠΟ ΤΙΣ 45 ΣΤΙΣ 33 ΣΤΡΟΦΕΣ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/apo-tis-45-stis-33-strofes/",
+        "air_time": "04/05 Δευτέρα 20:00-22:00 | 05/05 Τρίτη 20:00-22:00 | 06/05 Τετάρτη 20:00-22:00 | 07/05 Πέμπτη 20:00-22:00",
+        "filename": "apo-tis-45-stis-33-strofes.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ΚΟΣΜΟΝΑΥΤΗΣ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/kosmonautis-kosmos/",
+        "air_time": "03/05 Κυριακή 22:00-00:00",
+        "filename": "kosmonautis-kosmos.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "Με άλλον αΕΡΑ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/meallonaera/",
+        "air_time": "04/05 Δευτέρα 16:00-18:00 | 05/05 Τρίτη 16:00-18:00 | 06/05 Τετάρτη 16:00-18:00 | 07/05 Πέμπτη 16:00-18:00",
+        "filename": "meallonaera.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ΜΟΥΣΙΚΕΣ ΙΣΤΟΡΙΕΣ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/iosif-vagger/",
+        "air_time": "01/05 Παρασκευή 16:00-17:00 | 02/05 Σάββατο 16:00-17:00 | 03/05 Κυριακή 16:00-17:00",
+        "filename": "iosif-vagger.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "O ΗΧΟΣ ΤΗΣ ΟΘΟΝΗΣ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/o-ixos-tis-othonis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "o-ixos-tis-othonis.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ΟΙΚΟΣ ΑΝΤΟΧΗΣ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/oikos-antoxis/",
+        "air_time": "04/05 Δευτέρα 00:00-02:00 | 05/05 Τρίτη 00:00-02:00 | 06/05 Τετάρτη 00:00-02:00 | 07/05 Πέμπτη 00:00-02:00",
+        "filename": "oikos-antoxis.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ΣΗΜΕΙΩΣΕΙΣ ΕΝΟΣ ΜΟΝΟΜΑΝΟΥΣ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/simeioseis-enos-monomanous-kosmos/",
+        "air_time": "01/05 Παρασκευή 08:00-10:00 | 02/05 Σάββατο 08:00-10:00 | 03/05 Κυριακή 08:00-10:00",
+        "filename": "simeioseis-enos-monomanous-kosmos.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ΣΤΟΝ ΩΚΕΑΝΟ ΤΟΥ ΗΧΟΥ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/ston-okeano-tou-ixou/",
+        "air_time": "03/05 Κυριακή 20:00-22:00",
+        "filename": "ston-okeano-tou-ixou.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "A JAZZ THING",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/a-jazz-thing/",
+        "air_time": "Not listed in weekly program",
+        "filename": "a-jazz-thing.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "BREAKFAST ΣΤΟΝ ΚΟΣΜΟ",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/breakfast-ston-kosmo/",
+        "air_time": "04/05 Δευτέρα 08:00-10:00 | 05/05 Τρίτη 08:00-10:00 | 06/05 Τετάρτη 08:00-10:00 | 07/05 Πέμπτη 08:00-10:00",
+        "filename": "breakfast-ston-kosmo.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "BRIGHT SIDE OF THE ROAD",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/bright-side-of-the-road-kosmos/",
+        "air_time": "04/05 Δευτέρα 12:00-14:00 | 05/05 Τρίτη 12:00-14:00 | 06/05 Τετάρτη 12:00-14:00 | 07/05 Πέμπτη 12:00-14:00",
+        "filename": "bright-side-of-the-road-kosmos.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "FRESH UNLIMITED",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/fresh-unlimited-kosmos/",
+        "air_time": "01/05 Παρασκευή 20:00-22:00 | 02/05 Σάββατο 20:00-22:00",
+        "filename": "fresh-unlimited-kosmos.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "G-POLY GROOVE",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/g-poly-groove/",
+        "air_time": "01/05 Παρασκευή 14:00-16:00 | 02/05 Σάββατο 14:00-16:00 | 03/05 Κυριακή 14:00-16:00",
+        "filename": "g-poly-groove.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "KOSMIC SOUP",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/kosmic-soup-kosmos/",
+        "air_time": "04/05 Δευτέρα 14:00-16:00 | 05/05 Τρίτη 14:00-16:00 | 06/05 Τετάρτη 14:00-16:00 | 07/05 Πέμπτη 14:00-16:00",
+        "filename": "kosmic-soup-kosmos.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "MAMBO ESTEREO",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/mambo-estereo/",
+        "air_time": "01/05 Παρασκευή 18:00-20:00 | 02/05 Σάββατο 18:00-20:00",
+        "filename": "mambo-estereo.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ROAD TRIP",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/road-trip/",
+        "air_time": "04/05 Δευτέρα 18:00-20:00 | 05/05 Τρίτη 18:00-20:00 | 06/05 Τετάρτη 18:00-20:00 | 07/05 Πέμπτη 18:00-20:00",
+        "filename": "road-trip.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "PROXIMA ESTACION: MUSICA",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/proxima-estacion-musica/",
+        "air_time": "01/05 Παρασκευή 10:00-12:00 | 02/05 Σάββατο 10:00-12:00 | 03/05 Κυριακή 10:00-12:00",
+        "filename": "proxima-estacion-musica.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "ROUND MIDNIGHT",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/roumpini-stagkouraki/",
+        "air_time": "04/05 Δευτέρα 22:00-00:00 | 05/05 Τρίτη 22:00-00:00 | 06/05 Τετάρτη 22:00-00:00 | 07/05 Πέμπτη 22:00-00:00",
+        "filename": "roumpini-stagkouraki.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "THE KOSMOPOLITANS",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/the-cosmopolitans-kosmos/",
+        "air_time": "04/05 Δευτέρα 10:00-12:00 | 05/05 Τρίτη 10:00-12:00 | 06/05 Τετάρτη 10:00-12:00 | 07/05 Πέμπτη 10:00-12:00",
+        "filename": "the-cosmopolitans-kosmos.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "URBAN SOUNDS",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/mixalis-kamakas/",
+        "air_time": "01/05 Παρασκευή 12:00-14:00 | 02/05 Σάββατο 12:00-14:00 | 03/05 Κυριακή 12:00-14:00",
+        "filename": "mixalis-kamakas.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "WAKE-UP CALL",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/wake-up-call-kosmos/",
+        "air_time": "04/05 Δευτέρα 06:00-08:00 | 05/05 Τρίτη 06:00-08:00 | 06/05 Τετάρτη 06:00-08:00 | 07/05 Πέμπτη 06:00-08:00",
+        "filename": "wake-up-call-kosmos.json"
+    },
+    {
+        "station": "KOSMOS",
+        "title": "Kosmos Jazz History",
+        "url": "https://www.ertecho.gr/radio/kosmos/show/kosmos-jazz-history/",
+        "air_time": "Not listed in weekly program",
+        "filename": "kosmos-jazz-history.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "24 ΔΕΥΤΕΡΟΛΕΠΤΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/24-deyterolepta-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "24-deyterolepta-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "BREAKFAST ΜΕ ΣΠΟΡ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/breakfast-me-spor-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "breakfast-me-spor-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "DUM SPIRO GOAL",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/dum-spiro-goal/",
+        "air_time": "02/05 Σάββατο 11:00-12:00 | 03/05 Κυριακή 11:00-12:00",
+        "filename": "dum-spiro-goal.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "MATCH POINT",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/match-point-era-spor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "match-point-era-spor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΑΘΛΗΤΙΚΟ ΣΑΒΒΑΤΟΚΥΡΙΑΚΟ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/athlitiko-savvatokyriako/",
+        "air_time": "02/05 Σάββατο 08:00-09:00 | 03/05 Κυριακή 08:00-09:00",
+        "filename": "athlitiko-savvatokyriako.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΓΚΑΡΑΖ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/gkaraz-eraspor/",
+        "air_time": "02/05 Σάββατο 10:00-11:00",
+        "filename": "gkaraz-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΓΚΟΛ ΑΠΟ ΤΑ ΑΠΟΔΥΤΗΡΙΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/gkol-apo-ta-apodytiria/",
+        "air_time": "Not listed in weekly program",
+        "filename": "gkol-apo-ta-apodytiria.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΕΝΤΟΣ ΚΑΙ ΕΚΤΟΣ ΓΗΠΕΔΩΝ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/entos-kai-ektos-gipedon/",
+        "air_time": "Not listed in weekly program",
+        "filename": "entos-kai-ektos-gipedon.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΕΞΤΡΑ ΣΠΟΡ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/extra-spor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "extra-spor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "Η ΑΤΖΕΝΤΑ ΤΩΝ ΣΠΟΡ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/i-atzenta-ton-spor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "i-atzenta-ton-spor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "Η ΦΑΝΕΛΑ ΜΕ ΤΟ 10",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/i-fanela-me-to-10-era-spor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "i-fanela-me-to-10-era-spor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΚΑΤΑ ΙΩΑΝΝΟΥ ΕΥΑΓΓΕΛΙΟ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/kata-ioannou-eyaggelio-eraspor/",
+        "air_time": "01/05 Παρασκευή 13:00-14:00",
+        "filename": "kata-ioannou-eyaggelio-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΜΕΣΗΜΒΡΙΝΗ ΡΑΔΙΟΕΦΗΜΕΡΙΔΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/radioefimerida-eraspor/",
+        "air_time": "01/05 Παρασκευή 14:00-16:00",
+        "filename": "radioefimerida-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΜΙΚΡΟΦΩΝΟ ΣΤΑ ΓΗΠΕΔΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/mikrofono-sta-gipeda/",
+        "air_time": "02/05 Σάββατο 16:00-19:00 | 03/05 Κυριακή 16:00-19:00",
+        "filename": "mikrofono-sta-gipeda.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΜΠΑΛΑ ΚΙ ΑΛΛΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/mpala-ki-alla-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mpala-ki-alla-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΜΠΑΛΑ ΠΑΝΤΟΥ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/mpala-pantou/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mpala-pantou.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΝΤΟΚΙΜΑΝΤΕΡ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/ntokimanter-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ntokimanter-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΟΙ ΤΡΙΣΔΙΑΣΤΑΤΟΙ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/oi-trisdiastatoi-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "oi-trisdiastatoi-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΠΡΙΝ ΤΗ ΣΕΝΤΡΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/prin-ti-sentra/",
+        "air_time": "02/05 Σάββατο 12:00-14:00",
+        "filename": "prin-ti-sentra.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΠΡΟΣΩΠΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/prosopa-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "prosopa-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΣΤΟΝ ΙΛΙΓΓΟ ΤΗΣ ΤΑΧΥΤΗΤΑΣ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/ston-iliggo-tis-taxytitas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ston-iliggo-tis-taxytitas.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΣΤΟΝ ΚΟΣΜΟ ΜΑΣ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/ston-kosmo-mas-eraspor/",
+        "air_time": "01/05 Παρασκευή 19:00-20:00",
+        "filename": "ston-kosmo-mas-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΣΥΣΤΗΜΑ 3-5-2",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/systima-3-5-2-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "systima-3-5-2-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΤΕΛΕΥΤΑΙΑ ΣΕΛΙΔΑ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/teleytaia-selida-eraspor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "teleytaia-selida-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΤΡΙΤΟ ΜΑΤΙ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/to-trito-mati-stin-eksedra-eraspor/",
+        "air_time": "01/05 Παρασκευή 16:00-17:00",
+        "filename": "to-trito-mati-stin-eksedra-eraspor.json"
+    },
+    {
+        "station": "ΕΡΑ ΣΠΟΡ",
+        "title": "ΥΔΑΤΙΝΟΣ ΚΟΣΜΟΣ",
+        "url": "https://www.ertecho.gr/radio/eraspor/show/ydatinos-kosmos-era-spor/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ydatinos-kosmos-era-spor.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΑΘΛΗΤΙΚΗ ΕΝΗΜΕΡΩΣΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/athlitiki-enimerosi/",
+        "air_time": "Not listed in weekly program",
+        "filename": "athlitiki-enimerosi.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΑΘΛΗΤΙΚΗ ΦΩΝΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/athlitiki-fwni/",
+        "air_time": "Not listed in weekly program",
+        "filename": "athlitiki-fwni.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΑΚΟΥ ΝΑ ΔΕΙΣ ΚΑΙ ΚΟΙΤΑ ΝΑ ΑΚΟΥΣΕΙΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/akou-na-deis-kai-koita-na-akouseis-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "akou-na-deis-kai-koita-na-akouseis-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΑΠΟΤΥΠΩΜΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/apotypwma/",
+        "air_time": "07/05 Πέμπτη 12:05-13:00 | 07/05 Πέμπτη 04:00-06:00",
+        "filename": "apotypwma.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "AΣΥΜΜΕΤΡΟΣ ΧΡΟΝΟΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/asymmetros-xronos-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "asymmetros-xronos-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΑΦΥΛΑΧΤΗ ΔΙΑΒΑΣΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/afylahti-diavasi/",
+        "air_time": "Not listed in weekly program",
+        "filename": "afylahti-diavasi.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΓΛΥΚΙΑ ΖΩΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/glykia-zoi-vog/",
+        "air_time": "Not listed in weekly program",
+        "filename": "glykia-zoi-vog.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΔΙΗΓΗΣΕΙΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/diigiseis-i-fwni-tis-elladas/",
+        "air_time": "02/05 Σάββατο 17:00-18:00",
+        "filename": "diigiseis-i-fwni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΔΥΟ ΟΨΕΙΣ – ΠΟΛΛΕΣ ΑΠΟΨΕΙΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/dyo-opseis-polles-apopseis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "dyo-opseis-polles-apopseis.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΕΙΚΟΣΙ ΛΕΠΤΑ ΜΕ ΤΗΝ ΑΡΙΑΔΝΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/20-lepta-me-tin-ariadni-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "20-lepta-me-tin-ariadni-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΕΛΛΗΝΕΣ ΠΑΝΤΟΥ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ellines-pantou/",
+        "air_time": "02/05 Σάββατο 16:00-17:00 | 03/05 Κυριακή 17:00-18:00 | 03/05 Κυριακή 18:05-19:00",
+        "filename": "ellines-pantou.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΕΛΛΗΝΕΣ ΣΥΝΘΕΤΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ellines-synthetes-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ellines-synthetes-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΕΦΤΑ ΤΡΑΓΟΥΔΙΑ ΘΑ ΣΟΥ ΠΩ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/efta-tragoudia-tha-sou-po/",
+        "air_time": "Not listed in weekly program",
+        "filename": "efta-tragoudia-tha-sou-po.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΕΥ ΖΗΝ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ey-zin-i-foni-tis-elladas/",
+        "air_time": "06/05 Τετάρτη 13:05-14:00 | 07/05 Πέμπτη 07:05-08:00",
+        "filename": "ey-zin-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΕΛΛΗΝΙΚΗ ΠΑΡΑΔΟΣΙΑΚΗ ΜΟΥΣΙΚΗ ΣΤΗ ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-elliniki-paradosiaki-mousiki-sti-foni-tis-elladas/",
+        "air_time": "03/05 Κυριακή 06:00-08:00",
+        "filename": "i-elliniki-paradosiaki-mousiki-sti-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΕΛΛΗΝΙΚΗ ΓΛΩΣΣΑ, Ο ΘΗΣΑΥΡΟΣ ΜΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-elliniki-glossa-o-thisayros-mas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "i-elliniki-glossa-o-thisayros-mas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΔΙΚΗ ΜΑΣ ΠΟΛΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-diki-mas-poli/",
+        "air_time": "01/05 Παρασκευή 12:00-13:05 | 01/05 Παρασκευή 21:05-22:00 | 02/05 Σάββατο 12:00-13:00 | 02/05 Σάββατο 01:00-02:00 | 03/05 Κυριακή 12:00-14:00 | 03/05 Κυριακή 01:00-03:00 | 04/05 Δευτέρα 22:00-23:00 | 04/05 Δευτέρα 05:00-06:00",
+        "filename": "i-diki-mas-poli.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΕΛΛΑΔΑ ΣΤΟΝ ΚΟΣΜΟ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-ellada-ston-kosmo/",
+        "air_time": "04/05 Δευτέρα 10:05-11:00 | 04/05 Δευτέρα 11:05-12:00 | 05/05 Τρίτη 10:05-11:00 | 05/05 Τρίτη 11:05-12:00 | 06/05 Τετάρτη 10:05-11:00 | 06/05 Τετάρτη 11:05-12:00",
+        "filename": "i-ellada-ston-kosmo.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΜΙΚΡΗ ΘΑΛΑΣΣΙΝΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-mikri-thalassini/",
+        "air_time": "Not listed in weekly program",
+        "filename": "i-mikri-thalassini.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΠΑΓΚΟΣΜΙΑ ΦΩΝΗ ΜΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-pagkosmia-foni-mas/",
+        "air_time": "01/05 Παρασκευή 08:05-10:05 | 01/05 Παρασκευή 03:00-06:00 | 04/05 Δευτέρα 16:05-17:05 | 05/05 Τρίτη 16:05-17:05 | 06/05 Τετάρτη 16:05-17:05 | 07/05 Πέμπτη 16:05-17:05",
+        "filename": "i-pagkosmia-foni-mas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΠΕΡΙΦΕΡΕΙΑ ΣΤΗ ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-foni-tis-elladas-stin-periferia/",
+        "air_time": "Not listed in weekly program",
+        "filename": "i-foni-tis-elladas-stin-periferia.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Η ΦΩΝΗ ΠΟΥ ΜΑΣ ΕΝΩΝΕΙ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/i-foni-pou-mas-enonei/",
+        "air_time": "Not listed in weekly program",
+        "filename": "i-foni-pou-mas-enonei.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΗΛΙΟΤΡΟΠΙΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/iliotropia/",
+        "air_time": "Not listed in weekly program",
+        "filename": "iliotropia.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΙΣΤΟΡΙΚΟΙ ΠΕΡΙΠΑΤΟΙ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/istorikoi-peripatoi-i-foni-tis-elladas/",
+        "air_time": "02/05 Σάββατο 13:00-14:00 | 02/05 Σάββατο 04:00-05:00",
+        "filename": "istorikoi-peripatoi-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΚΑΘΕ ΤΟΠΟΣ ΚΑΙ ΤΑ ΤΡΑΓΟΥΔΙΑ ΤΟΥ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/kathe-topos-kai-ta-tragoudia-tou/",
+        "air_time": "Not listed in weekly program",
+        "filename": "kathe-topos-kai-ta-tragoudia-tou.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΚΑΛΕΣ ΘΑΛΑΣΣΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/kales-thalasses/",
+        "air_time": "02/05 Σάββατο 08:00-10:00 | 02/05 Σάββατο 20:00-22:00 | 04/05 Δευτέρα 08:05-09:00 | 05/05 Τρίτη 08:05-09:00 | 06/05 Τετάρτη 08:05-09:00 | 07/05 Πέμπτη 08:05-09:00",
+        "filename": "kales-thalasses.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΚΟΥΒΕΝΤΕΣ ΜΑΚΡΙΝΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/kouventes-makrines/",
+        "air_time": "04/05 Δευτέρα 12:05-13:00 | 04/05 Δευτέρα 04:00-05:00 | 05/05 Τρίτη 12:05-13:00 | 05/05 Τρίτη 04:00-06:00 | 06/05 Τετάρτη 12:05-13:00 | 06/05 Τετάρτη 04:00-06:00",
+        "filename": "kouventes-makrines.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΜΙΛΑ ΜΟΥ ΓΙΑ ΤΑΞΙΔΙΑ…",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/mila-mou-gia-taksidia/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mila-mou-gia-taksidia.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΜΟΥΣΙΚΟ ΚΟΥΤΙ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/mousiko-kouti/",
+        "air_time": "Not listed in weekly program",
+        "filename": "mousiko-kouti.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΛΑΪΚΟΙ ΔΡΟΜΟΙ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/laikoi-dromoi/",
+        "air_time": "02/05 Σάββατο 14:00-16:00 | 02/05 Σάββατο 02:00-04:00 | 03/05 Κυριακή 14:00-16:00",
+        "filename": "laikoi-dromoi.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Ν’ ΑΛΛΑΞΟΥΜΕ ΤΗ ΜΕΡΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/n-allaksoume-ti-mera/",
+        "air_time": "04/05 Δευτέρα 00:00-01:00 | 05/05 Τρίτη 00:00-01:00 | 06/05 Τετάρτη 00:00-01:00 | 07/05 Πέμπτη 00:00-01:00",
+        "filename": "n-allaksoume-ti-mera.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΟΙ ΕΛΛΗΝΕΣ ΤΖΑΖΙΣΤΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/oi-ellines-tzazistes-i-foni-tis-elladas/",
+        "air_time": "01/05 Παρασκευή 22:00-23:00 | 02/05 Σάββατο 22:00-23:00",
+        "filename": "oi-ellines-tzazistes-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΟΙ ΕΛΛΗΝΕΣ ΤΟΥ ΚΟΣΜΟΥ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/oi-ellines-tou-kosmou-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "oi-ellines-tou-kosmou-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΟΙ ΛΕΞΕΙΣ ΤΩΝ ΑΛΛΩΝ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/oi-lekseis-ton-allon-i-foni-tis-elladas/",
+        "air_time": "01/05 Παρασκευή 07:05-08:05 | 07/05 Πέμπτη 13:05-14:00",
+        "filename": "oi-lekseis-ton-allon-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Ο ΜΙΤΟΣ ΤΗΣ ΑΡΙΑΔΝΗΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/o-mitos-tis-ariadnis-i-foni-tis-elladas/",
+        "air_time": "02/05 Σάββατο 10:00-11:00 | 02/05 Σάββατο 05:00-06:00",
+        "filename": "o-mitos-tis-ariadnis-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Ο ΠΟΙΗΤΗΣ/Η ΠΟΙΗΤΡΙΑ ΤΗΣ ΕΒΔΟΜΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/o-poiitis-tis-evdomadas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "o-poiitis-tis-evdomadas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΠΑΡΕ ΤΟΝ ΧΡΟΝΟ ΣΟΥ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/pare-ton-xrono-sou-i-fwni-tis-elladas/",
+        "air_time": "01/05 Παρασκευή 10:05-11:05 | 01/05 Παρασκευή 11:05-12:00 | 07/05 Πέμπτη 10:05-11:00 | 07/05 Πέμπτη 11:05-12:00",
+        "filename": "pare-ton-xrono-sou-i-fwni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΠΛΑΝΟΔΙΕΣ ΜΟΥΣΙΚΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/planodies-mousikes-vog/",
+        "air_time": "01/05 Παρασκευή 01:00-03:00 | 04/05 Δευτέρα 01:00-03:00 | 05/05 Τρίτη 01:00-03:00 | 06/05 Τετάρτη 01:00-03:00 | 07/05 Πέμπτη 01:00-03:00",
+        "filename": "planodies-mousikes-vog.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΠΕΡΙΠΛΑΝΩΜΕΝΗ ΚΑΙ ΕΥΤΥΧΙΣΜΕΝΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/periplanomeni-kai-eytyxismeni-i-foni-tis-elladas/",
+        "air_time": "02/05 Σάββατο 23:00-00:00",
+        "filename": "periplanomeni-kai-eytyxismeni-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΠΟΥ ΠΑΕΙ Η ΜΟΥΣΙΚΗ ΟΤΑΝ ΔΕΝ ΤΗΝ ΑΚΟΥΜΕ ΠΙΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/pou-paei-i-mousiki-otan-den-tin-akoume-pia-vog/",
+        "air_time": "03/05 Κυριακή 03:00-04:00",
+        "filename": "pou-paei-i-mousiki-otan-den-tin-akoume-pia-vog.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΠΡΟΒΑ ΟΡΧΗΣΤΡΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/prova-orxistras-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "prova-orxistras-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΠΡΟΣΚΛΗΣΗ ΣΕ ΓΕΥΜΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/prosklisi-se-geyma/",
+        "air_time": "Not listed in weekly program",
+        "filename": "prosklisi-se-geyma.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΠΡΟΣΦΕΡΩ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/prosfero-vog/",
+        "air_time": "Not listed in weekly program",
+        "filename": "prosfero-vog.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΡΟΚ ΣΥΝΑΝΑΣΤΡΟΦΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/rok-synanastrofes-vog/",
+        "air_time": "Not listed in weekly program",
+        "filename": "rok-synanastrofes-vog.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΣΑΝ ΤΟΝ ΟΔΥΣΣΕΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/san-ton-odyssea/",
+        "air_time": "Not listed in weekly program",
+        "filename": "san-ton-odyssea.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΣΕΛΙΔΕΣ ΕΘΙΣΜΕΝΕΣ ΣΤΗ ΜΟΥΣΙΚΗ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/selides-ethismenes-sti-mousiki-vog/",
+        "air_time": "Not listed in weekly program",
+        "filename": "selides-ethismenes-sti-mousiki-vog.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΣΤΟ ΧΩΡΙΟ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/sto-xorio-i-foni-tis-elladas/",
+        "air_time": "05/05 Τρίτη 13:05-14:00 | 06/05 Τετάρτη 07:05-08:00",
+        "filename": "sto-xorio-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΣΤΟΥΣ ΟΡΙΖΟΝΤΕΣ ΤΩΝ ΤΡΑΓΟΥΔΙΩΝ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/stous-orizontes-ton-tragoudion-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "stous-orizontes-ton-tragoudion-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΑ ΞΩΤΙΚΑ ΤΗΣ ΠΑΡΑΔΟΣΗΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ta-ksotika-tis-paradosis/",
+        "air_time": "01/05 Παρασκευή 15:00-17:00 | 01/05 Παρασκευή 23:00-01:00 | 04/05 Δευτέρα 15:00-16:00 | 04/05 Δευτέρα 23:00-00:00 | 05/05 Τρίτη 15:00-16:00 | 05/05 Τρίτη 23:00-00:00 | 06/05 Τετάρτη 15:00-16:00 | 06/05 Τετάρτη 23:00-00:00 | 07/05 Πέμπτη 15:00-16:00 | 07/05 Πέμπτη 23:00-00:00",
+        "filename": "ta-ksotika-tis-paradosis.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΑ ΠΑΡΑΜΥΘΙΑ ΤΗΣ ΦΩΝΗΣ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ta-paramythia-tis-fonis-tis-elladas-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ta-paramythia-tis-fonis-tis-elladas-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΑ ΠΡΟΣΩΠΑ ΤΗΣ ΕΒΔΟΜΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ta-prosopa-tis-evdomadas-i-foni-tis-elladas/",
+        "air_time": "06/05 Τετάρτη 22:00-23:00",
+        "filename": "ta-prosopa-tis-evdomadas-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΑ ΤΡΑΓΟΥΔΙΑ ΤΗΣ ΠΑΡΕΑΣ ΣΤΗ ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ta-tragoudia-tis-pareas-sti-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ta-tragoudia-tis-pareas-sti-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΑΞΙΔΕΥΟΝΤΑΣ ΜΕ ΦΩΣ ΕΛΛΗΝΙΚΟ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/taksideyontas-me-fos-elliniko/",
+        "air_time": "Not listed in weekly program",
+        "filename": "taksideyontas-me-fos-elliniko.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΑΞΙΔΙΑ ΠΟΥ ΑΛΛΑΖΟΥΝ ΤΟ ΒΛΕΜΜΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/taksidia-pou-allazoun-to-vlemma-i-foni-tis-elladas/",
+        "air_time": "04/05 Δευτέρα 13:05-14:00 | 05/05 Τρίτη 07:05-08:00",
+        "filename": "taksidia-pou-allazoun-to-vlemma-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΗΣ ΨΥΧΗΣ ΜΟΥ ΤΟ ΧΩΜΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/tis-psyxis-mou-to-xoma/",
+        "air_time": "Not listed in weekly program",
+        "filename": "tis-psyxis-mou-to-xoma.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΟ ΚΑΦΕΝΕΙΟ ΤΗΣ ΦΩΝΗΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/to-kafeneio-tis-fonis/",
+        "air_time": "Not listed in weekly program",
+        "filename": "to-kafeneio-tis-fonis.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΟΠΙΑ ΑΝΘΡΩΠΩΝ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/topia-anthropon/",
+        "air_time": "Not listed in weekly program",
+        "filename": "topia-anthropon.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΤΩΝ ΕΛΛΗΝΩΝ ΟΙ ΚΟΙΝΟΤΗΤΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ton-ellinon-oi-koinotites/",
+        "air_time": "Not listed in weekly program",
+        "filename": "ton-ellinon-oi-koinotites.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΦΥΣΑΕΙ Ο ΜΠΑΤΗΣ, ΦΥΣΑΕΙ ΤΟ ΚΥΜΑ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/fysaei-o-mpatis-fysaei-to-kyma/",
+        "air_time": "Not listed in weekly program",
+        "filename": "fysaei-o-mpatis-fysaei-to-kyma.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΦΩΝΕΣ ΚΑΙ ΜΟΥΣΙΚΕΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/fones-kai-mousikes/",
+        "air_time": "03/05 Κυριακή 04:00-06:00 | 04/05 Δευτέρα 18:05-19:00 | 05/05 Τρίτη 18:05-19:00 | 06/05 Τετάρτη 18:05-19:00 | 07/05 Πέμπτη 18:05-19:00",
+        "filename": "fones-kai-mousikes.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ΩΡΑ ΕΛΛΑΔΑΣ",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/ora-elladas/",
+        "air_time": "04/05 Δευτέρα 09:05-10:00 | 04/05 Δευτέρα 03:00-04:00 | 05/05 Τρίτη 09:05-10:00 | 05/05 Τρίτη 03:00-04:00 | 06/05 Τετάρτη 09:05-10:00 | 06/05 Τετάρτη 03:00-04:00 | 07/05 Πέμπτη 09:05-10:00 | 07/05 Πέμπτη 03:00-04:00",
+        "filename": "ora-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ATHENS CALLING",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/athens-calling/",
+        "air_time": "Not listed in weekly program",
+        "filename": "athens-calling.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "GREEK MUSIC EXPRESS",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/greek-music-express/",
+        "air_time": "01/05 Παρασκευή 14:05-15:00 | 02/05 Σάββατο 11:00-12:00 | 04/05 Δευτέρα 14:05-15:00 | 05/05 Τρίτη 14:05-15:00 | 06/05 Τετάρτη 14:05-15:00 | 07/05 Πέμπτη 14:05-15:00",
+        "filename": "greek-music-express.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "GREEK MUSIC EXPRESS-Στάση: “Μουσικά Προάστια”",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/greek-music-express-stasi-mousika-proastia/",
+        "air_time": "02/05 Σάββατο 00:00-01:00 | 03/05 Κυριακή 00:00-01:00",
+        "filename": "greek-music-express-stasi-mousika-proastia.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "HISTORIA MINIMAS",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/historia-minimas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "historia-minimas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "INFINITELY CURIOUS",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/infinitely-curious-vog/",
+        "air_time": "03/05 Κυριακή 11:00-12:00",
+        "filename": "infinitely-curious-vog.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ISTORIMA",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/istorima-i-foni-tis-elladas/",
+        "air_time": "Not listed in weekly program",
+        "filename": "istorima-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "ON THE ROAD",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/on-the-road-i-foni-tis-elladas/",
+        "air_time": "01/05 Παρασκευή 13:05-14:05 | 04/05 Δευτέρα 07:05-08:00",
+        "filename": "on-the-road-i-foni-tis-elladas.json"
+    },
+    {
+        "station": "Η ΦΩΝΗ ΤΗΣ ΕΛΛΑΔΑΣ",
+        "title": "Ασυμμετρος Χρονος",
+        "url": "https://www.ertecho.gr/radio/i-foni-tis-elladas/show/asymmetros-xronos/",
+        "air_time": "01/05 Παρασκευή 17:00-19:00 | 04/05 Δευτέρα 20:00-21:00 | 04/05 Δευτέρα 21:05-22:00 | 05/05 Τρίτη 20:00-21:00 | 05/05 Τρίτη 21:05-22:00 | 06/05 Τετάρτη 20:00-21:00 | 06/05 Τετάρτη 21:05-22:00 | 07/05 Πέμπτη 20:00-21:00 | 07/05 Πέμπτη 21:05-22:00",
+        "filename": "asymmetros-xronos.json"
+    }
+]
