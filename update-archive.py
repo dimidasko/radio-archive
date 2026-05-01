@@ -103,7 +103,8 @@ if __name__ == "__main__":
     shows = [
         ("https://www.ertecho.gr/radio/ertnewsradio/show/kathreftis/", "kathreftis.json"),
         ("https://www.ertecho.gr/radio/deftero/show/prepei-na-ksereis-mixani-na-kopseis-mayra-matia/", "prepei-na-ksereis-mixani-na-kopseis-mayra-matia.json"),
-        ("https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/", "anazitontas-tin-kyria-me-ti-stryxnini.json")
+        ("https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/", "anazitontas-tin-kyria-me-ti-stryxnini.json"),
+        ("https://www.ertecho.gr/radio/deftero/show/planodies-mousikes-deftero/","planodies-mousikes-deftero.json")
     ]
     
     for url, file in shows:
