@@ -20,6 +20,7 @@ def get_mp3_url(session_url):
         return None
 
 def scrape_entire_archive():
+    # base_url = "https://www.ertecho.gr/radio/ertnewsradio/show/kathreftis/"
     # base_url = "https://www.ertecho.gr/radio/deftero/show/prepei-na-ksereis-mixani-na-kopseis-mayra-matia/"
     base_url = "https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/"
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
