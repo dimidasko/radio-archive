@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ERT Echo Archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .active-bookmark { color: #ef4444; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 p-4">
+
+    <header class="mb-6">
+        <h1 class="text-2xl font-bold text-orange-500">ERT Echo Browser</h1>
+        <input type="text" id="searchInput" placeholder="Search sessions or guests..." 
+               class="w-full mt-4 p-3 rounded bg-gray-800 border border-gray-700 focus:outline-none focus:border-orange-500">
+    </header>
+
+    <div id="controls" class="flex gap-2 mb-6 overflow-x-auto pb-2">
+        <button onclick="loadShow('kathreftis.json')" class="bg-blue-600 px-4 py-2 rounded whitespace-nowrap">Καθρέφτης</button>
+        <button onclick="loadShow('stryxnini.json')" class="bg-purple-600 px-4 py-2 rounded whitespace-nowrap">Στρυχνίνη</button>
+        <button onclick="viewBookmarks()" class="bg-red-600 px-4 py-2 rounded">❤️ Bookmarks</button>
+    </div>
+
+    <main id="app" class="space-y-4">
+        <p class="text-center text-gray-500 mt-10">Select a show to start...</p>
+    </main>
+
+    <script>
+        let currentData = [];
+        const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/[YOUR_USER]/[YOUR_REPO]/main/";
+
+        async function loadShow(filename) {
+            const response = await fetch(GITHUB_RAW_BASE + filename);
+            currentData = await response.json();
+            render(currentData);
+        }
+
+        function render(data) {
+            const container = document.getElementById('app');
+            container.innerHTML = data.map(item => `
+                <div class="bg-gray-800 p-4 rounded-lg shadow-md border-l-4 border-orange-500">
+                    <div class="flex justify-between items-start">
+                        <h3 class="font-bold text-lg leading-tight w-4/5">${item.title}</h3>
+                        <button onclick="toggleBookmark('${item.url}')" class="text-2xl">
+                            ${isBookmarked(item.url) ? '❤️' : '🤍'}
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-400 mt-1">${item.date}</p>
+                    <p class="text-sm mt-2 text-gray-300 line-clamp-3">${item.description}</p>
+                    <div class="mt-4 flex gap-3">
+                        <a href="${item.mp3}" target="_blank" class="bg-orange-500 text-black px-4 py-2 rounded font-bold text-sm">PLAY MP3</a>
+                        <a href="${item.url}" target="_blank" class="text-blue-400 text-sm py-2">Site Link</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // --- Bookmark Logic ---
+        function toggleBookmark(url) {
+            let bookmarks = JSON.parse(localStorage.getItem('ert_bookmarks') || '[]');
+            if (bookmarks.includes(url)) {
+                bookmarks = bookmarks.filter(b => b !== url);
+            } else {
+                bookmarks.push(url);
+            }
+            localStorage.setItem('ert_bookmarks', JSON.stringify(bookmarks));
+            render(currentData);
+        }
+
+        function isBookmarked(url) {
+            const bookmarks = JSON.parse(localStorage.getItem('ert_bookmarks') || '[]');
+            return bookmarks.includes(url);
+        }
+
+        // --- Search Logic ---
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            const filtered = currentData.filter(item => 
+                item.title.toLowerCase().includes(term) || 
+                item.description.toLowerCase().includes(term)
+            );
+            render(filtered);
+        });
+    </script>
+</body>
+</html>
