@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Radio Archive</title>
+    <title>ERT Echo Archive</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #1f2937; }
+        ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 10px; }
+    </style>
 </head>
 <body class="bg-gray-900 text-gray-100 min-h-screen pb-24">
 
     <!-- Header -->
-    <nav class="bg-gray-800 border-b border-orange-500 p-4 sticky top-0 z-10 shadow-md">
+    <nav class="bg-gray-800 border-b border-orange-500 p-4 sticky top-0 z-20 shadow-md">
         <div class="max-w-4xl mx-auto flex justify-between items-center">
-            <h1 class="text-xl font-bold text-orange-500 tracking-tight">MY RADIO ARCHIVE</h1>
-            <button onclick="renderDiscovery()" class="bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded text-sm font-bold border border-gray-500 transition">
-                🔍 DISCOVER
-            </button>
+            <h1 onclick="init()" class="text-xl font-bold text-orange-500 tracking-tight cursor-pointer">ERT ECHO ARCHIVE</h1>
+            <div class="flex gap-3">
+                <button onclick="renderDiscovery()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">Discover</button>
+            </div>
         </div>
     </nav>
+
+    <!-- Search Bar -->
+    <div id="searchSection" class="bg-gray-900 p-4 sticky top-[65px] z-10">
+        <div class="max-w-4xl mx-auto">
+            <input type="text" id="searchInput" onkeyup="filterShows()" placeholder="Search your active shows..." 
+                   class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 transition">
+        </div>
+    </div>
 
     <!-- Main Content -->
     <main id="app" class="max-w-4xl mx-auto p-4">
@@ -25,155 +39,143 @@
     </main>
 
     <!-- Persistent Player -->
-    <div id="playerContainer" class="fixed bottom-0 left-0 right-0 bg-gray-800 border-t-2 border-orange-500 p-3 hidden shadow-2xl">
+    <div id="playerContainer" class="fixed bottom-0 left-0 right-0 bg-gray-800 border-t-2 border-orange-500 p-3 hidden shadow-2xl z-30">
         <div class="max-w-4xl mx-auto">
-            <p id="nowPlayingTitle" class="text-xs text-orange-400 truncate mb-2 font-bold px-1"></p>
-            <audio id="mainAudioPlayer" controls class="w-full h-10 rounded-none">
+            <p id="nowPlayingTitle" class="text-xs text-orange-400 truncate mb-2 font-bold px-1 uppercase tracking-tight"></p>
+            <audio id="mainAudioPlayer" controls class="w-full h-10">
                 <source id="audioSource" src="" type="audio/mpeg">
             </audio>
         </div>
     </div>
 
     <script>
-        const GITHUB_USER = "dimidasko"; // Change this!
-        const GITHUB_REPO = "radio-archive"; // Change this!
+        const GITHUB_USER = "YOUR_USERNAME"; 
+        const GITHUB_REPO = "YOUR_REPO_NAME"; 
         const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/`;
-        
-        // Global state to store data after the first fetch
+
         let cachedActiveShows = null;
 
-        // 1. Initialize App: Load Active Shows 
         async function init() {
-            const grid = document.getElementById('showGrid');
+            document.getElementById('searchSection').classList.remove('hidden');
             const app = document.getElementById('app');
-            
-            // Ensure the main layout is visible (in case we are coming back from Discovery)
             app.innerHTML = `
-                <div id="loading" class="text-center mt-20 text-gray-500 animate-pulse">Loading your archive...</div>
+                <div id="loading" class="text-center mt-20 text-gray-500 animate-pulse">Loading archive...</div>
                 <div id="showGrid" class="grid gap-4"></div>
             `;
-      
-            // Use cache if we already have it, otherwise fetch
+
             if (cachedActiveShows) {
                 renderArchive(cachedActiveShows);
             } else {
                 try {
                     const response = await fetch(RAW_BASE + 'active_shows.json');
-                    if (!response.ok) throw new Error("File not found");
                     cachedActiveShows = await response.json();
                     renderArchive(cachedActiveShows);
                 } catch (err) {
-                    document.getElementById('app').innerHTML = `
-                        <div class="text-center mt-20">
-                            <div class="text-red-400 p-4 bg-red-900/20 rounded border border-red-800 inline-block">
-                                Error loading active_shows.json. Check your URL and File.
-                            </div>
-                            <br><button onclick="location.reload()" class="mt-4 text-orange-500 underline">Reload Page</button>
-                        </div>`;
+                    app.innerHTML = `<div class="text-red-400 p-10 text-center">Error loading active_shows.json</div>`;
                 }
             }
         }
-        
-        // Update the renderArchive to ensure the loading message disappears correctly
+
         function renderArchive(shows) {
             const grid = document.getElementById('showGrid');
             const loading = document.getElementById('loading');
-            
-            if (loading) loading.classList.add('hidden');
-            
-            if (!grid) return; // Safety check
-        
+            if (loading) loading.remove();
+
             grid.innerHTML = shows.map(show => `
-                <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 hover:border-orange-500/50 transition shadow-sm">
-                    <div class="flex justify-between items-start mb-3">
-                        <div>
-                            <h2 class="text-lg font-bold text-white">${show.title}</h2>
-                            <span class="text-[10px] bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded uppercase tracking-widest">${show.station}</span>
+                <div class="show-card bg-gray-800 rounded-lg p-4 border border-gray-700 flex justify-between items-center group hover:border-orange-500/50 transition">
+                    <div class="flex-1 pr-4">
+                        <h2 class="text-lg font-bold text-white leading-tight mb-1">${show.title}</h2>
+                        <div class="flex flex-wrap gap-2 items-center">
+                            <span class="text-[9px] bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded uppercase font-bold tracking-tighter">${show.station}</span>
+                            <span class="text-[10px] text-gray-500 italic">🕒 ${show.air_time || 'No schedule'}</span>
                         </div>
-                        <button onclick="loadEpisodes('${show.filename}', '${show.title}')" 
-                                class="bg-orange-500 hover:bg-orange-400 text-black px-4 py-2 rounded font-black text-sm transition shadow-lg">
-                            VIEW
-                        </button>
                     </div>
+                    <button onclick="loadEpisodes('${show.filename}', '${show.title}')" class="text-gray-400 group-hover:text-orange-500 p-2 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
                 </div>
             `).join('');
         }
 
-        // 2. Render the Main List of Active Shows
-        function renderArchive(shows) {
-            const grid = document.getElementById('showGrid');
-            document.getElementById('loading').classList.add('hidden');
-            
-            grid.innerHTML = shows.map(show => `
-                <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 hover:border-orange-500/50 transition">
-                    <div class="flex justify-between items-start mb-3">
-                        <div>
-                            <h2 class="text-lg font-bold text-white">${show.title}</h2>
-                            <span class="text-[10px] bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded uppercase tracking-widest">${show.station}</span>
-                        </div>
-                        <button onclick="loadEpisodes('${show.filename}', '${show.title}')" 
-                                class="bg-orange-500 hover:bg-orange-400 text-black px-4 py-2 rounded font-black text-sm transition shadow-lg">
-                            VIEW EPISODES
-                        </button>
-                    </div>
-                </div>
-            `).join('');
+        function filterShows() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.show-card');
+            cards.forEach(card => {
+                const title = card.querySelector('h2').innerText.toLowerCase();
+                card.style.display = title.includes(query) ? 'flex' : 'none';
+            });
         }
 
-        // 3. Load Episodes for a Specific Show
-        async function loadEpisodes(filename, title) {
+        async function loadEpisodes(filename, showTitle) {
+            document.getElementById('searchSection').classList.add('hidden');
             const app = document.getElementById('app');
-            app.innerHTML = `<div class="text-center mt-10"><button onclick="init()" class="text-orange-500 mb-4 underline font-bold">← BACK TO LIST</button><p class="animate-pulse">Fetching episodes for ${title}...</p></div>`;
+            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest">Fetching Episodes...</div>`;
 
             try {
                 const res = await fetch(RAW_BASE + filename);
                 const episodes = await res.json();
                 
                 app.innerHTML = `
-                    <div class="flex items-center justify-between mb-6">
-                        <h2 class="text-xl font-bold">${title}</h2>
-                        <button onclick="init()" class="bg-gray-700 px-3 py-1 rounded text-xs font-bold uppercase">Back</button>
+                    <div class="mb-8">
+                        <button onclick="init()" class="text-orange-500 font-bold mb-4 flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                            BACK TO ARCHIVE
+                        </button>
+                        <h2 class="text-2xl font-black text-white uppercase">${showTitle}</h2>
                     </div>
-                    <div class="space-y-2">
+                    <div class="space-y-4">
                         ${episodes.map(ep => `
-                            <div class="bg-gray-800 p-3 rounded flex justify-between items-center border-l-4 border-orange-600">
-                                <span class="text-sm font-medium">${ep.title}</span>
-                                <div class="flex gap-2">
-                                    <button onclick="playAudio('${ep.mp3}', '${ep.title}')" class="bg-gray-700 text-orange-400 p-2 rounded hover:bg-orange-500 hover:text-black transition">▶</button>
-                                    <a href="${ep.mp3}" download class="bg-gray-700 text-white p-2 rounded hover:bg-blue-600 transition">💾</a>
+                            <div class="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
+                                <div class="p-4">
+                                    <div class="flex justify-between items-start mb-2">
+                                        <h3 class="text-orange-400 font-bold text-lg">${ep.title}</h3>
+                                        <a href="${ep.url}" target="_blank" class="text-gray-500 hover:text-white transition">
+                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                        </a>
+                                    </div>
+                                    <p class="text-sm text-gray-400 mb-4 line-clamp-3">${ep.description || 'No description available.'}</p>
+                                    <div class="flex gap-2">
+                                        <button onclick="playAudio('${ep.mp3}', '${ep.title}')" 
+                                                class="flex-1 bg-orange-600 hover:bg-orange-500 text-white font-bold py-2 rounded transition flex items-center justify-center gap-2">
+                                            <span>PLAY</span>
+                                        </button>
+                                        <a href="${ep.mp3}" download class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded transition">💾</a>
+                                    </div>
                                 </div>
                             </div>
                         `).join('')}
                     </div>
                 `;
             } catch (err) {
-                app.innerHTML = `<div class="text-center mt-10"><p class="text-red-400">Archive file ${filename} not found yet.</p><button onclick="init()" class="mt-4 text-orange-500 underline">Back to List</button></div>`;
+                app.innerHTML = `<div class="text-center py-20 text-red-500">JSON file for this show not found yet.</div><button onclick="init()" class="block mx-auto text-orange-500 font-bold">RETURN</button>`;
             }
         }
 
-        // 4. Discovery View
         async function renderDiscovery() {
+            document.getElementById('searchSection').classList.add('hidden');
             const app = document.getElementById('app');
-            app.innerHTML = `<p class="text-center mt-10 animate-pulse">Browsing ERT library...</p>`;
+            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase">Indexing ERT Library...</div>`;
             
             try {
                 const res = await fetch(RAW_BASE + 'available_shows.json');
                 const shows = await res.json();
                 
                 app.innerHTML = `
-                    <div class="flex items-center justify-between mb-6">
-                        <h2 class="text-xl font-bold">Discover New Shows</h2>
-                        <button onclick="init()" class="bg-gray-700 px-3 py-1 rounded text-xs font-bold uppercase">Back</button>
+                    <div class="mb-6 flex justify-between items-center">
+                        <h2 class="text-2xl font-black text-white">DISCOVER</h2>
+                        <button onclick="init()" class="text-orange-500 font-bold">CLOSE</button>
                     </div>
                     <div class="space-y-3">
                         ${shows.map(s => `
-                            <div class="bg-gray-800 p-4 rounded-lg border-l-2 border-gray-600">
-                                <p class="font-bold text-orange-400">${s.title}</p>
-                                <p class="text-[10px] text-gray-400 uppercase">${s.station}</p>
+                            <div class="bg-gray-800 p-4 rounded-lg border-l-2 border-orange-500">
+                                <p class="font-bold text-white">${s.title}</p>
+                                <p class="text-[10px] text-orange-400 uppercase font-bold tracking-wider">${s.station}</p>
                                 <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${s.air_time}</p>
-                                <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}')" 
-                                        class="mt-3 w-full bg-gray-700 hover:bg-orange-600 py-1 rounded text-[10px] font-bold uppercase transition">
-                                    Copy Config for GitHub
+                                <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}', '${s.air_time}')" 
+                                        class="mt-3 w-full bg-gray-700 hover:bg-gray-600 py-1 rounded text-[10px] font-bold uppercase transition">
+                                    Copy snippet
                                 </button>
                             </div>
                         `).join('')}
@@ -189,18 +191,17 @@
             const player = document.getElementById('mainAudioPlayer');
             const source = document.getElementById('audioSource');
             const titleEl = document.getElementById('nowPlayingTitle');
-
             container.classList.remove('hidden');
-            titleEl.innerText = "PLAYING: " + title;
+            titleEl.innerText = title;
             source.src = url;
             player.load();
             player.play();
         }
 
-        function copyToClipboard(title, url, filename, station) {
-            const config = JSON.stringify({title, url, filename, station}, null, 2);
+        function copyToClipboard(title, url, filename, station, air_time) {
+            const config = JSON.stringify({title, url, filename, station, air_time}, null, 2);
             navigator.clipboard.writeText(config + ",");
-            alert("Config copied! Paste it into your active_shows.json file on GitHub.");
+            alert("Config copied!");
         }
 
         init();
