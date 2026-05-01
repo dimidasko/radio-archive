@@ -1,9 +1,9 @@
-# import requests
-# from bs4 import BeautifulSoup
-# import json
-# import time
-# import re
-# import os
+import requests
+from bs4 import BeautifulSoup
+import json
+import time
+import re
+import os
 
 def get_mp3_url(session_url):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
@@ -19,12 +19,8 @@ def get_mp3_url(session_url):
     except:
         return None
 
-def scrape_entire_archive():
-    # base_url = "https://www.ertecho.gr/radio/ertnewsradio/show/kathreftis/"
-    # base_url = "https://www.ertecho.gr/radio/deftero/show/prepei-na-ksereis-mixani-na-kopseis-mayra-matia/"
-    base_url = "https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/"
+def scrape_show(base_url, filename):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-    filename = 'anazitontas-tin-kyria-me-ti-stryxnini.json'
 
     # Load existing data to avoid re-scraping things you already have
     if os.path.exists(filename):
@@ -98,4 +94,12 @@ def scrape_entire_archive():
     print(f"\nDone! Total database size: {len(all_data)} sessions.")
 
 if __name__ == "__main__":
-    scrape_entire_archive()
+    shows = [
+        ("https://www.ertecho.gr/radio/ertnewsradio/show/kathreftis/", "kathreftis.json"),
+        ("https://www.ertecho.gr/radio/deftero/show/prepei-na-ksereis-mixani-na-kopseis-mayra-matia/", "prepei-na-ksereis-mixani-na-kopseis-mayra-matia.json"),
+        ("https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/", "anazitontas-tin-kyria-me-ti-stryxnini.json")
+    ]
+    
+    for url, file in shows:
+        print(f"Starting update for: {file}")
+        scrape_show(url, file)
