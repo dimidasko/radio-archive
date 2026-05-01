@@ -100,13 +100,10 @@ def scrape_show(base_url, filename):
         print(f"No updates needed for {filename}.")
 
 if __name__ == "__main__":
-    shows = [
-        ("https://www.ertecho.gr/radio/ertnewsradio/show/kathreftis/", "kathreftis.json"),
-        ("https://www.ertecho.gr/radio/deftero/show/prepei-na-ksereis-mixani-na-kopseis-mayra-matia/", "prepei-na-ksereis-mixani-na-kopseis-mayra-matia.json"),
-        ("https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/", "anazitontas-tin-kyria-me-ti-stryxnini.json"),
-        ("https://www.ertecho.gr/radio/deftero/show/planodies-mousikes-deftero/","planodies-mousikes-deftero.json")
-    ]
+    # Instead of a hardcoded list, read from a config file
+    with open('active_shows.json', 'r', encoding='utf-8') as f:
+        shows_to_scrape = json.load(f)
     
-    for url, file in shows:
-        print(f"Starting update for: {file}")
-        scrape_show(url, file)
+    for show in shows_to_scrape:
+        print(f"Updating: {show['title']}")
+        scrape_show(show['url'], show['filename'])
