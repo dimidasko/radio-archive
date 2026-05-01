@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ERT Echo Archive</title>
+    <title>My Radio Archive</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Custom scrollbar for a cleaner look */
@@ -17,7 +17,7 @@
     <!-- Header -->
     <nav class="bg-gray-800 border-b border-orange-500 p-4 sticky top-0 z-20 shadow-md">
         <div class="max-w-4xl mx-auto flex justify-between items-center">
-            <h1 onclick="init()" class="text-xl font-bold text-orange-500 tracking-tight cursor-pointer">ERT ECHO ARCHIVE</h1>
+            <h1 onclick="init()" class="text-xl font-bold text-orange-500 tracking-tight cursor-pointer">MY RADIO ARCHIVE</h1>
             <div class="flex gap-3">
                 <button onclick="renderDiscovery()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">Discover</button>
             </div>
@@ -49,8 +49,8 @@
     </div>
 
     <script>
-        const GITHUB_USER = "YOUR_USERNAME"; 
-        const GITHUB_REPO = "YOUR_REPO_NAME"; 
+        const GITHUB_USER = "dimidasko"; 
+        const GITHUB_REPO = "radio-archive"; 
         const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/`;
 
         let cachedActiveShows = null;
