@@ -38,16 +38,65 @@
         const GITHUB_USER = "dimidasko"; // Change this!
         const GITHUB_REPO = "radio-archive"; // Change this!
         const RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/`;
+        
+        // Global state to store data after the first fetch
+        let cachedActiveShows = null;
 
-        // 1. Initialize App: Load Active Shows
+        // 1. Initialize App: Load Active Shows 
         async function init() {
-            try {
-                const response = await fetch(RAW_BASE + 'active_shows.json');
-                const activeShows = await response.json();
-                renderArchive(activeShows);
-            } catch (err) {
-                document.getElementById('app').innerHTML = `<div class="text-red-400 p-4 bg-red-900/20 rounded border border-red-800">Error loading active_shows.json. Make sure the file exists in your repo.</div>`;
+            const grid = document.getElementById('showGrid');
+            const app = document.getElementById('app');
+            
+            // Ensure the main layout is visible (in case we are coming back from Discovery)
+            app.innerHTML = `
+                <div id="loading" class="text-center mt-20 text-gray-500 animate-pulse">Loading your archive...</div>
+                <div id="showGrid" class="grid gap-4"></div>
+            `;
+      
+            // Use cache if we already have it, otherwise fetch
+            if (cachedActiveShows) {
+                renderArchive(cachedActiveShows);
+            } else {
+                try {
+                    const response = await fetch(RAW_BASE + 'active_shows.json');
+                    if (!response.ok) throw new Error("File not found");
+                    cachedActiveShows = await response.json();
+                    renderArchive(cachedActiveShows);
+                } catch (err) {
+                    document.getElementById('app').innerHTML = `
+                        <div class="text-center mt-20">
+                            <div class="text-red-400 p-4 bg-red-900/20 rounded border border-red-800 inline-block">
+                                Error loading active_shows.json. Check your URL and File.
+                            </div>
+                            <br><button onclick="location.reload()" class="mt-4 text-orange-500 underline">Reload Page</button>
+                        </div>`;
+                }
             }
+        }
+        
+        // Update the renderArchive to ensure the loading message disappears correctly
+        function renderArchive(shows) {
+            const grid = document.getElementById('showGrid');
+            const loading = document.getElementById('loading');
+            
+            if (loading) loading.classList.add('hidden');
+            
+            if (!grid) return; // Safety check
+        
+            grid.innerHTML = shows.map(show => `
+                <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 hover:border-orange-500/50 transition shadow-sm">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <h2 class="text-lg font-bold text-white">${show.title}</h2>
+                            <span class="text-[10px] bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded uppercase tracking-widest">${show.station}</span>
+                        </div>
+                        <button onclick="loadEpisodes('${show.filename}', '${show.title}')" 
+                                class="bg-orange-500 hover:bg-orange-400 text-black px-4 py-2 rounded font-black text-sm transition shadow-lg">
+                            VIEW
+                        </button>
+                    </div>
+                </div>
+            `).join('');
         }
 
         // 2. Render the Main List of Active Shows
