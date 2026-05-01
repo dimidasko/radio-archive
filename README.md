@@ -18,6 +18,7 @@ The project has these main parts
 - available_shows.json is a list of all radio shows in all main radio stations of ertecho to allow easy discovery of new interesting shows
 - discover-shows.py is a python script to create the available_shows.json
 - update-archive.py is a python script to create bookmarks of previously aired sessions of favorite shows
+- .github/workflows/weekly_update.yml is a github actions scheduled task for running an update of the archives from recently aired shows. It tries its best to be as light on the ertecho site as possible by fetching only info about new sessions
 - other json files are the archives of previously aired sessions 
 
 ## Disclaimer
