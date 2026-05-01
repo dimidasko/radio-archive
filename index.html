@@ -16,7 +16,7 @@
     <!-- Header -->
     <nav class="bg-gray-800 border-b border-orange-500 p-4 sticky top-0 z-20 shadow-md">
         <div class="max-w-4xl mx-auto flex justify-between items-center">
-            <h1 onclick="init()" class="text-xl font-bold text-orange-500 tracking-tight cursor-pointer">MY RADIO ARCHIVE</h1>
+            <h1 onclick="init()" class="text-xl font-bold text-orange-500 tracking-tight cursor-pointer uppercase">My Radio Archive</h1>
             <button onclick="renderDiscovery()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">Discover</button>
         </div>
     </nav>
@@ -63,13 +63,16 @@
             if (document.getElementById('loading')) document.getElementById('loading').remove();
 
             grid.innerHTML = shows.map(show => `
-                <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 flex justify-between items-center group hover:border-orange-500/50 transition shadow-sm">
-                    <div class="flex-1 pr-4">
-                        <h2 class="text-lg font-bold text-white leading-tight mb-1">${show.title}</h2>
-                        <div class="flex flex-wrap gap-2 items-center">
-                            <span class="text-[9px] bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded uppercase font-bold tracking-tighter">${show.station}</span>
-                            <span class="text-[10px] text-gray-500 italic">🕒 ${show.air_time || ''}</span>
+                <div class="bg-gray-800 p-4 rounded-lg border-l-2 border-orange-500 flex justify-between items-center group hover:bg-gray-800/80 transition shadow-sm">
+                    <div class="flex-1 pr-2">
+                        <div class="flex items-center gap-2 mb-1">
+                            <h2 class="text-lg font-bold text-white leading-tight">${show.title}</h2>
+                            <a href="${show.url}" target="_blank" class="text-gray-600 hover:text-white transition">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            </a>
                         </div>
+                        <p class="text-[10px] text-orange-400 uppercase font-bold tracking-wider">${show.station}</p>
+                        <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${show.air_time || 'No schedule'}</p>
                     </div>
                     <button onclick="loadEpisodes('${show.filename}', '${show.title}')" class="text-gray-400 group-hover:text-orange-500 p-2 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
@@ -80,7 +83,7 @@
 
         async function loadEpisodes(filename, showTitle) {
             const app = document.getElementById('app');
-            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest">Fetching Episodes...</div>`;
+            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest font-bold">Fetching Episodes...</div>`;
 
             try {
                 const res = await fetch(RAW_BASE + filename);
@@ -92,7 +95,7 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
                             BACK
                         </button>
-                        <h2 class="text-2xl font-black text-white uppercase mb-4">${showTitle}</h2>
+                        <h2 class="text-2xl font-black text-white uppercase mb-4 tracking-tight">${showTitle}</h2>
                         <input type="text" id="epSearch" onkeyup="filterEpisodes()" placeholder="Search in titles and descriptions..." 
                                class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 transition">
                     </div>
@@ -115,7 +118,7 @@
                     </div>
                 `;
             } catch (err) {
-                app.innerHTML = `<div class="text-center py-20 text-red-500">Episode list unavailable.</div><button onclick="init()" class="block mx-auto text-orange-500 font-bold underline">Go Back</button>`;
+                app.innerHTML = `<div class="text-center py-20 text-red-500">Episode list unavailable.</div><button onclick="init()" class="block mx-auto text-orange-500 font-bold underline font-bold uppercase">Go Back</button>`;
             }
         }
 
@@ -131,22 +134,27 @@
 
         async function renderDiscovery() {
             const app = document.getElementById('app');
-            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest">Scanning Library...</div>`;
+            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest font-bold">Scanning Library...</div>`;
             try {
                 const res = await fetch(RAW_BASE + 'available_shows.json');
                 const shows = await res.json();
                 app.innerHTML = `
                     <div class="mb-6 flex justify-between items-center">
-                        <h2 class="text-2xl font-black text-white">DISCOVER</h2>
-                        <button onclick="init()" class="text-orange-500 font-bold">CLOSE</button>
+                        <h2 class="text-2xl font-black text-white uppercase tracking-tight">Discover</h2>
+                        <button onclick="init()" class="text-orange-500 font-bold uppercase">Close</button>
                     </div>
                     <div class="space-y-3">
                         ${shows.map(s => `
                             <div class="bg-gray-800 p-4 rounded-lg border-l-2 border-orange-500">
-                                <p class="font-bold text-white">${s.title}</p>
+                                <div class="flex items-center gap-2 mb-1">
+                                    <p class="font-bold text-white">${s.title}</p>
+                                    <a href="${s.url}" target="_blank" class="text-gray-600 hover:text-white transition">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </a>
+                                </div>
                                 <p class="text-[10px] text-orange-400 uppercase font-bold tracking-wider">${s.station}</p>
                                 <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${s.air_time}</p>
-                                <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}', '${s.air_time}')" class="mt-3 w-full bg-gray-700 hover:bg-gray-600 py-1 rounded text-[10px] font-bold uppercase">Copy Snippet</button>
+                                <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}', '${s.air_time}')" class="mt-3 w-full bg-orange-600 hover:bg-orange-500 text-white py-1.5 rounded text-[10px] font-black uppercase tracking-widest transition">ADD</button>
                             </div>
                         `).join('')}
                     </div>
@@ -169,7 +177,7 @@
         function copyToClipboard(title, url, filename, station, air_time) {
             const config = JSON.stringify({title, url, filename, station, air_time}, null, 2);
             navigator.clipboard.writeText(config + ",");
-            alert("Copied to clipboard!");
+            alert("Show config copied to clipboard!");
         }
 
         init();
