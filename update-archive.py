@@ -35,8 +35,8 @@ def scrape_entire_archive():
 
     existing_urls = {item['url'] for item in all_data}
 
-    # Range 1 to 27 (inclusive)
-    for page_num in range(1, 28):
+    # Range 1 to 5 (inclusive)
+    for page_num in range(1, 5):
         # Handle the specific URL structure
         if page_num == 1:
             current_page_url = base_url
