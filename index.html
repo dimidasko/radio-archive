@@ -14,10 +14,13 @@
 <body class="bg-gray-900 text-gray-100 min-h-screen pb-24">
 
     <!-- Header -->
-    <nav class="bg-gray-800 border-b border-orange-500 p-4 sticky top-0 z-20 shadow-md">
+    <nav class="bg-gray-800 border-b border-orange-500 p-4 sticky top-0 z-30 shadow-md">
         <div class="max-w-4xl mx-auto flex justify-between items-center">
             <h1 onclick="init()" class="text-xl font-bold text-orange-500 tracking-tight cursor-pointer uppercase">My Radio Archive</h1>
-            <button onclick="renderDiscovery()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">Discover</button>
+            <div class="flex gap-4">
+                <button onclick="renderFavorites()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">★ Favs</button>
+                <button onclick="renderDiscovery()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">Discover</button>
+            </div>
         </div>
     </nav>
 
@@ -41,38 +44,37 @@
 
         let cachedActiveShows = null;
 
+        // Initialize LocalStorage for Favs
+        if (!localStorage.getItem('favShows')) localStorage.setItem('favShows', '[]');
+        if (!localStorage.getItem('favEpisodes')) localStorage.setItem('favEpisodes', '[]');
+
         async function init() {
             const app = document.getElementById('app');
             app.innerHTML = `<div id="loading" class="text-center mt-20 text-gray-500 animate-pulse">Loading archive...</div><div id="showGrid" class="grid gap-4"></div>`;
-
-            if (cachedActiveShows) {
-                renderArchive(cachedActiveShows);
-            } else {
+            if (cachedActiveShows) { renderArchive(cachedActiveShows); } 
+            else {
                 try {
                     const response = await fetch(RAW_BASE + 'active_shows.json');
                     cachedActiveShows = await response.json();
                     renderArchive(cachedActiveShows);
-                } catch (err) {
-                    app.innerHTML = `<div class="text-red-400 p-10 text-center">Error loading active_shows.json</div>`;
-                }
+                } catch (err) { app.innerHTML = `<div class="text-red-400 p-10 text-center">Error loading active_shows.json</div>`; }
             }
         }
 
         function renderArchive(shows) {
             const grid = document.getElementById('showGrid');
             if (document.getElementById('loading')) document.getElementById('loading').remove();
-
             grid.innerHTML = shows.map(show => `
-                <div class="bg-gray-800 p-4 rounded-lg border-l-2 border-orange-500 flex justify-between items-center group hover:bg-gray-800/80 transition shadow-sm">
+                <div class="bg-gray-800 p-4 rounded-lg border-l-2 border-orange-500 flex justify-between items-center group transition shadow-sm">
                     <div class="flex-1 pr-2">
                         <div class="flex items-center gap-2 mb-1">
                             <h2 class="text-lg font-bold text-white leading-tight">${show.title}</h2>
                             <a href="${show.url}" target="_blank" class="text-gray-600 hover:text-white transition">
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
                             </a>
                         </div>
                         <p class="text-[10px] text-orange-400 uppercase font-bold tracking-wider">${show.station}</p>
-                        <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${show.air_time || 'No schedule'}</p>
+                        <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${show.air_time || ''}</p>
                     </div>
                     <button onclick="loadEpisodes('${show.filename}', '${show.title}')" class="text-gray-400 group-hover:text-orange-500 p-2 transition">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
@@ -84,100 +86,141 @@
         async function loadEpisodes(filename, showTitle) {
             const app = document.getElementById('app');
             app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest font-bold">Fetching Episodes...</div>`;
-
             try {
                 const res = await fetch(RAW_BASE + filename);
                 const episodes = await res.json();
-                
                 app.innerHTML = `
                     <div class="sticky top-[65px] bg-gray-900 pt-2 pb-4 z-10">
-                        <button onclick="init()" class="text-orange-500 font-bold mb-4 flex items-center gap-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-                            BACK
-                        </button>
+                        <button onclick="init()" class="text-orange-500 font-bold mb-4 flex items-center gap-2 uppercase text-sm"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>Back</button>
                         <h2 class="text-2xl font-black text-white uppercase mb-4 tracking-tight">${showTitle}</h2>
-                        <input type="text" id="epSearch" onkeyup="filterEpisodes()" placeholder="Search in titles and descriptions..." 
-                               class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 transition">
+                        <input type="text" id="epSearch" onkeyup="filterEpisodes()" placeholder="Search description..." class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 transition">
                     </div>
                     <div id="episodeList" class="space-y-4">
-                        ${episodes.map(ep => `
-                            <div class="episode-card bg-gray-800 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
-                                <div class="p-4">
-                                    <div class="flex justify-between items-start mb-2">
-                                        <h3 class="text-orange-400 font-bold text-lg leading-tight">${ep.title}</h3>
-                                        <a href="${ep.url}" target="_blank" class="text-gray-500 hover:text-white ml-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-                                    </div>
-                                    <p class="description text-sm text-gray-400 mb-4 line-clamp-3">${ep.description || ''}</p>
-                                    <div class="flex gap-2">
-                                        <button onclick="playAudio('${ep.mp3}', '${ep.title}')" class="flex-1 bg-orange-600 hover:bg-orange-500 text-white font-bold py-2 rounded transition">PLAY</button>
-                                        <a href="${ep.mp3}" download class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded transition">💾</a>
-                                    </div>
-                                </div>
-                            </div>
-                        `).join('')}
+                        ${episodes.map(ep => renderEpisodeCard(ep)).join('')}
                     </div>
                 `;
-            } catch (err) {
-                app.innerHTML = `<div class="text-center py-20 text-red-500">Episode list unavailable.</div><button onclick="init()" class="block mx-auto text-orange-500 font-bold underline font-bold uppercase">Go Back</button>`;
-            }
+            } catch (err) { app.innerHTML = `<div class="text-center py-20">Show not found.</div>`; }
         }
 
-        function filterEpisodes() {
-            const query = document.getElementById('epSearch').value.toLowerCase();
-            const cards = document.querySelectorAll('.episode-card');
-            cards.forEach(card => {
-                const title = card.querySelector('h3').innerText.toLowerCase();
-                const desc = card.querySelector('.description').innerText.toLowerCase();
-                card.style.display = (title.includes(query) || desc.includes(query)) ? 'block' : 'none';
-            });
+        function renderEpisodeCard(ep) {
+            const isFav = JSON.parse(localStorage.getItem('favEpisodes')).some(f => f.mp3 === ep.mp3);
+            return `
+                <div class="episode-card bg-gray-800 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-orange-400 font-bold text-lg leading-tight">${ep.title}</h3>
+                            <div class="flex gap-3">
+                                <button onclick="toggleFavEpisode('${btoa(encodeURIComponent(JSON.stringify(ep)))}', this)" class="${isFav ? 'text-orange-500' : 'text-gray-600'} hover:text-orange-400 transition">★</button>
+                                <a href="${ep.url}" target="_blank" class="text-gray-600 hover:text-white transition"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                            </div>
+                        </div>
+                        <p class="description text-sm text-gray-400 mb-4 line-clamp-3">${ep.description || ''}</p>
+                        <div class="flex gap-2">
+                            <button onclick="playAudio('${ep.mp3}', '${ep.title}')" class="flex-1 bg-orange-600 hover:bg-orange-500 text-white font-bold py-2 rounded transition">PLAY</button>
+                            <a href="${ep.mp3}" download class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded transition">💾</a>
+                        </div>
+                    </div>
+                </div>`;
         }
 
         async function renderDiscovery() {
             const app = document.getElementById('app');
-            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest font-bold">Scanning Library...</div>`;
-            try {
-                const res = await fetch(RAW_BASE + 'available_shows.json');
-                const shows = await res.json();
-                app.innerHTML = `
-                    <div class="mb-6 flex justify-between items-center">
-                        <h2 class="text-2xl font-black text-white uppercase tracking-tight">Discover</h2>
+            app.innerHTML = `<div class="text-center py-20">Scanning...</div>`;
+            const res = await fetch(RAW_BASE + 'available_shows.json');
+            const shows = await res.json();
+            app.innerHTML = `
+                <div class="sticky top-[65px] bg-gray-900 pt-2 pb-4 z-10">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-2xl font-black text-white uppercase">Discovery</h2>
                         <button onclick="init()" class="text-orange-500 font-bold uppercase">Close</button>
                     </div>
-                    <div class="space-y-3">
-                        ${shows.map(s => `
-                            <div class="bg-gray-800 p-4 rounded-lg border-l-2 border-orange-500">
-                                <div class="flex items-center gap-2 mb-1">
-                                    <p class="font-bold text-white">${s.title}</p>
-                                    <a href="${s.url}" target="_blank" class="text-gray-600 hover:text-white transition">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                    </a>
-                                </div>
-                                <p class="text-[10px] text-orange-400 uppercase font-bold tracking-wider">${s.station}</p>
-                                <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${s.air_time}</p>
-                                <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}', '${s.air_time}')" class="mt-3 w-full bg-orange-600 hover:bg-orange-500 text-white py-1.5 rounded text-[10px] font-black uppercase tracking-widest transition">ADD</button>
-                            </div>
-                        `).join('')}
+                    <input type="text" id="discSearch" onkeyup="filterDiscovery()" placeholder="Search show name or station..." class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 transition">
+                </div>
+                <div id="discoveryList" class="space-y-3">
+                    ${shows.map(s => renderDiscoveryCard(s)).join('')}
+                </div>`;
+        }
+
+        function renderDiscoveryCard(s) {
+            const isFav = JSON.parse(localStorage.getItem('favShows')).some(f => f.url === s.url);
+            return `
+                <div class="discovery-card bg-gray-800 p-4 rounded-lg border-l-2 border-orange-500 shadow-sm">
+                    <div class="flex justify-between items-start mb-1">
+                        <div class="flex items-center gap-2">
+                            <p class="font-bold text-white show-name">${s.title}</p>
+                            <a href="${s.url}" target="_blank" class="text-gray-600 hover:text-white transition"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></a>
+                        </div>
+                        <button onclick="toggleFavShow('${btoa(encodeURIComponent(JSON.stringify(s)))}', this)" class="${isFav ? 'text-orange-500' : 'text-gray-600'} hover:text-orange-400 transition text-xl">★</button>
                     </div>
-                `;
-            } catch (err) { app.innerHTML = `<p class="text-center mt-10">available_shows.json not found.</p>`; }
+                    <p class="station-name text-[10px] text-orange-400 uppercase font-bold tracking-wider">${s.station}</p>
+                    <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${s.air_time}</p>
+                    <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}', '${s.air_time}')" class="mt-3 w-full bg-orange-600 text-white py-1.5 rounded text-[10px] font-black uppercase tracking-widest">ADD</button>
+                </div>`;
+        }
+
+        function toggleFavShow(dataB64, btn) {
+            const show = JSON.parse(decodeURIComponent(atob(dataB64)));
+            let favs = JSON.parse(localStorage.getItem('favShows'));
+            const idx = favs.findIndex(f => f.url === show.url);
+            if (idx > -1) { favs.splice(idx, 1); btn.classList.replace('text-orange-500', 'text-gray-600'); } 
+            else { favs.push(show); btn.classList.replace('text-gray-600', 'text-orange-500'); }
+            localStorage.setItem('favShows', JSON.stringify(favs));
+        }
+
+        function toggleFavEpisode(dataB64, btn) {
+            const ep = JSON.parse(decodeURIComponent(atob(dataB64)));
+            let favs = JSON.parse(localStorage.getItem('favEpisodes'));
+            const idx = favs.findIndex(f => f.mp3 === ep.mp3);
+            if (idx > -1) { favs.splice(idx, 1); btn.classList.replace('text-orange-500', 'text-gray-600'); } 
+            else { favs.push(ep); btn.classList.replace('text-gray-600', 'text-orange-500'); }
+            localStorage.setItem('favEpisodes', JSON.stringify(favs));
+        }
+
+        function renderFavorites() {
+            const app = document.getElementById('app');
+            const showFavs = JSON.parse(localStorage.getItem('favShows'));
+            const epFavs = JSON.parse(localStorage.getItem('favEpisodes'));
+            app.innerHTML = `
+                <div class="mb-6 flex justify-between items-center"><h2 class="text-2xl font-black text-white">BOOKMARKS</h2><button onclick="init()" class="text-orange-500 font-bold uppercase">Back</button></div>
+                <div class="space-y-8">
+                    <section>
+                        <h3 class="text-orange-500 text-xs font-bold uppercase tracking-widest mb-4">Saved Shows</h3>
+                        <div class="space-y-3">${showFavs.length ? showFavs.map(s => renderDiscoveryCard(s)).join('') : '<p class="text-gray-600 italic">No shows bookmarked.</p>'}</div>
+                    </section>
+                    <section>
+                        <h3 class="text-orange-500 text-xs font-bold uppercase tracking-widest mb-4">Saved Episodes</h3>
+                        <div class="space-y-3">${epFavs.length ? epFavs.map(e => renderEpisodeCard(e)).join('') : '<p class="text-gray-600 italic">No episodes bookmarked.</p>'}</div>
+                    </section>
+                </div>`;
+        }
+
+        function filterDiscovery() {
+            const q = document.getElementById('discSearch').value.toLowerCase();
+            document.querySelectorAll('.discovery-card').forEach(card => {
+                const text = card.querySelector('.show-name').innerText.toLowerCase() + card.querySelector('.station-name').innerText.toLowerCase();
+                card.style.display = text.includes(q) ? 'block' : 'none';
+            });
+        }
+
+        function filterEpisodes() {
+            const q = document.getElementById('epSearch').value.toLowerCase();
+            document.querySelectorAll('.episode-card').forEach(card => {
+                const text = card.querySelector('h3').innerText.toLowerCase() + card.querySelector('.description').innerText.toLowerCase();
+                card.style.display = text.includes(q) ? 'block' : 'none';
+            });
         }
 
         function playAudio(url, title) {
-            const container = document.getElementById('playerContainer');
-            const player = document.getElementById('mainAudioPlayer');
-            const source = document.getElementById('audioSource');
-            const titleEl = document.getElementById('nowPlayingTitle');
-            container.classList.remove('hidden');
-            titleEl.innerText = title;
-            source.src = url;
-            player.load();
-            player.play();
+            document.getElementById('playerContainer').classList.remove('hidden');
+            document.getElementById('nowPlayingTitle').innerText = title;
+            document.getElementById('audioSource').src = url;
+            document.getElementById('mainAudioPlayer').load();
+            document.getElementById('mainAudioPlayer').play();
         }
 
         function copyToClipboard(title, url, filename, station, air_time) {
-            const config = JSON.stringify({title, url, filename, station, air_time}, null, 2);
-            navigator.clipboard.writeText(config + ",");
-            alert("Show config copied to clipboard!");
+            navigator.clipboard.writeText(JSON.stringify({title, url, filename, station, air_time}, null, 2) + ",");
+            alert("Show config copied!");
         }
 
         init();
