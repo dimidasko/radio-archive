@@ -6,7 +6,6 @@
     <title>My Radio Archive</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom scrollbar for a cleaner look */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #1f2937; }
         ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 10px; }
@@ -18,33 +17,20 @@
     <nav class="bg-gray-800 border-b border-orange-500 p-4 sticky top-0 z-20 shadow-md">
         <div class="max-w-4xl mx-auto flex justify-between items-center">
             <h1 onclick="init()" class="text-xl font-bold text-orange-500 tracking-tight cursor-pointer">MY RADIO ARCHIVE</h1>
-            <div class="flex gap-3">
-                <button onclick="renderDiscovery()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">Discover</button>
-            </div>
+            <button onclick="renderDiscovery()" class="text-gray-400 hover:text-orange-500 transition text-sm font-bold uppercase tracking-widest">Discover</button>
         </div>
     </nav>
 
-    <!-- Search Bar -->
-    <div id="searchSection" class="bg-gray-900 p-4 sticky top-[65px] z-10">
-        <div class="max-w-4xl mx-auto">
-            <input type="text" id="searchInput" onkeyup="filterShows()" placeholder="Search your active shows..." 
-                   class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 transition">
-        </div>
-    </div>
-
     <!-- Main Content -->
     <main id="app" class="max-w-4xl mx-auto p-4">
-        <div id="loading" class="text-center mt-20 text-gray-500 animate-pulse">Loading your archive...</div>
-        <div id="showGrid" class="grid gap-4"></div>
+        <!-- Content injected here -->
     </main>
 
     <!-- Persistent Player -->
     <div id="playerContainer" class="fixed bottom-0 left-0 right-0 bg-gray-800 border-t-2 border-orange-500 p-3 hidden shadow-2xl z-30">
         <div class="max-w-4xl mx-auto">
             <p id="nowPlayingTitle" class="text-xs text-orange-400 truncate mb-2 font-bold px-1 uppercase tracking-tight"></p>
-            <audio id="mainAudioPlayer" controls class="w-full h-10">
-                <source id="audioSource" src="" type="audio/mpeg">
-            </audio>
+            <audio id="mainAudioPlayer" controls class="w-full h-10"><source id="audioSource" src="" type="audio/mpeg"></audio>
         </div>
     </div>
 
@@ -56,12 +42,8 @@
         let cachedActiveShows = null;
 
         async function init() {
-            document.getElementById('searchSection').classList.remove('hidden');
             const app = document.getElementById('app');
-            app.innerHTML = `
-                <div id="loading" class="text-center mt-20 text-gray-500 animate-pulse">Loading archive...</div>
-                <div id="showGrid" class="grid gap-4"></div>
-            `;
+            app.innerHTML = `<div id="loading" class="text-center mt-20 text-gray-500 animate-pulse">Loading archive...</div><div id="showGrid" class="grid gap-4"></div>`;
 
             if (cachedActiveShows) {
                 renderArchive(cachedActiveShows);
@@ -78,38 +60,25 @@
 
         function renderArchive(shows) {
             const grid = document.getElementById('showGrid');
-            const loading = document.getElementById('loading');
-            if (loading) loading.remove();
+            if (document.getElementById('loading')) document.getElementById('loading').remove();
 
             grid.innerHTML = shows.map(show => `
-                <div class="show-card bg-gray-800 rounded-lg p-4 border border-gray-700 flex justify-between items-center group hover:border-orange-500/50 transition">
+                <div class="bg-gray-800 rounded-lg p-4 border border-gray-700 flex justify-between items-center group hover:border-orange-500/50 transition shadow-sm">
                     <div class="flex-1 pr-4">
                         <h2 class="text-lg font-bold text-white leading-tight mb-1">${show.title}</h2>
                         <div class="flex flex-wrap gap-2 items-center">
                             <span class="text-[9px] bg-orange-900/40 text-orange-300 px-2 py-0.5 rounded uppercase font-bold tracking-tighter">${show.station}</span>
-                            <span class="text-[10px] text-gray-500 italic">🕒 ${show.air_time || 'No schedule'}</span>
+                            <span class="text-[10px] text-gray-500 italic">🕒 ${show.air_time || ''}</span>
                         </div>
                     </div>
                     <button onclick="loadEpisodes('${show.filename}', '${show.title}')" class="text-gray-400 group-hover:text-orange-500 p-2 transition">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg>
                     </button>
                 </div>
             `).join('');
         }
 
-        function filterShows() {
-            const query = document.getElementById('searchInput').value.toLowerCase();
-            const cards = document.querySelectorAll('.show-card');
-            cards.forEach(card => {
-                const title = card.querySelector('h2').innerText.toLowerCase();
-                card.style.display = title.includes(query) ? 'flex' : 'none';
-            });
-        }
-
         async function loadEpisodes(filename, showTitle) {
-            document.getElementById('searchSection').classList.add('hidden');
             const app = document.getElementById('app');
             app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest">Fetching Episodes...</div>`;
 
@@ -118,29 +87,26 @@
                 const episodes = await res.json();
                 
                 app.innerHTML = `
-                    <div class="mb-8">
+                    <div class="sticky top-[65px] bg-gray-900 pt-2 pb-4 z-10">
                         <button onclick="init()" class="text-orange-500 font-bold mb-4 flex items-center gap-2">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-                            BACK TO ARCHIVE
+                            BACK
                         </button>
-                        <h2 class="text-2xl font-black text-white uppercase">${showTitle}</h2>
+                        <h2 class="text-2xl font-black text-white uppercase mb-4">${showTitle}</h2>
+                        <input type="text" id="epSearch" onkeyup="filterEpisodes()" placeholder="Search in titles and descriptions..." 
+                               class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-500 transition">
                     </div>
-                    <div class="space-y-4">
+                    <div id="episodeList" class="space-y-4">
                         ${episodes.map(ep => `
-                            <div class="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
+                            <div class="episode-card bg-gray-800 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
                                 <div class="p-4">
                                     <div class="flex justify-between items-start mb-2">
-                                        <h3 class="text-orange-400 font-bold text-lg">${ep.title}</h3>
-                                        <a href="${ep.url}" target="_blank" class="text-gray-500 hover:text-white transition">
-                                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                        </a>
+                                        <h3 class="text-orange-400 font-bold text-lg leading-tight">${ep.title}</h3>
+                                        <a href="${ep.url}" target="_blank" class="text-gray-500 hover:text-white ml-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
                                     </div>
-                                    <p class="text-sm text-gray-400 mb-4 line-clamp-3">${ep.description || 'No description available.'}</p>
+                                    <p class="description text-sm text-gray-400 mb-4 line-clamp-3">${ep.description || ''}</p>
                                     <div class="flex gap-2">
-                                        <button onclick="playAudio('${ep.mp3}', '${ep.title}')" 
-                                                class="flex-1 bg-orange-600 hover:bg-orange-500 text-white font-bold py-2 rounded transition flex items-center justify-center gap-2">
-                                            <span>PLAY</span>
-                                        </button>
+                                        <button onclick="playAudio('${ep.mp3}', '${ep.title}')" class="flex-1 bg-orange-600 hover:bg-orange-500 text-white font-bold py-2 rounded transition">PLAY</button>
                                         <a href="${ep.mp3}" download class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded transition">💾</a>
                                     </div>
                                 </div>
@@ -149,19 +115,26 @@
                     </div>
                 `;
             } catch (err) {
-                app.innerHTML = `<div class="text-center py-20 text-red-500">JSON file for this show not found yet.</div><button onclick="init()" class="block mx-auto text-orange-500 font-bold">RETURN</button>`;
+                app.innerHTML = `<div class="text-center py-20 text-red-500">Episode list unavailable.</div><button onclick="init()" class="block mx-auto text-orange-500 font-bold underline">Go Back</button>`;
             }
         }
 
+        function filterEpisodes() {
+            const query = document.getElementById('epSearch').value.toLowerCase();
+            const cards = document.querySelectorAll('.episode-card');
+            cards.forEach(card => {
+                const title = card.querySelector('h3').innerText.toLowerCase();
+                const desc = card.querySelector('.description').innerText.toLowerCase();
+                card.style.display = (title.includes(query) || desc.includes(query)) ? 'block' : 'none';
+            });
+        }
+
         async function renderDiscovery() {
-            document.getElementById('searchSection').classList.add('hidden');
             const app = document.getElementById('app');
-            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase">Indexing ERT Library...</div>`;
-            
+            app.innerHTML = `<div class="text-center py-20 animate-pulse text-gray-500 uppercase tracking-widest">Scanning Library...</div>`;
             try {
                 const res = await fetch(RAW_BASE + 'available_shows.json');
                 const shows = await res.json();
-                
                 app.innerHTML = `
                     <div class="mb-6 flex justify-between items-center">
                         <h2 class="text-2xl font-black text-white">DISCOVER</h2>
@@ -173,17 +146,12 @@
                                 <p class="font-bold text-white">${s.title}</p>
                                 <p class="text-[10px] text-orange-400 uppercase font-bold tracking-wider">${s.station}</p>
                                 <p class="text-[11px] text-gray-500 mt-1 italic">🕒 ${s.air_time}</p>
-                                <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}', '${s.air_time}')" 
-                                        class="mt-3 w-full bg-gray-700 hover:bg-gray-600 py-1 rounded text-[10px] font-bold uppercase transition">
-                                    Copy snippet
-                                </button>
+                                <button onclick="copyToClipboard('${s.title}', '${s.url}', '${s.filename}', '${s.station}', '${s.air_time}')" class="mt-3 w-full bg-gray-700 hover:bg-gray-600 py-1 rounded text-[10px] font-bold uppercase">Copy Snippet</button>
                             </div>
                         `).join('')}
                     </div>
                 `;
-            } catch (err) {
-                app.innerHTML = `<p class="text-center mt-10">available_shows.json not found.</p>`;
-            }
+            } catch (err) { app.innerHTML = `<p class="text-center mt-10">available_shows.json not found.</p>`; }
         }
 
         function playAudio(url, title) {
@@ -201,7 +169,7 @@
         function copyToClipboard(title, url, filename, station, air_time) {
             const config = JSON.stringify({title, url, filename, station, air_time}, null, 2);
             navigator.clipboard.writeText(config + ",");
-            alert("Config copied!");
+            alert("Copied to clipboard!");
         }
 
         init();
