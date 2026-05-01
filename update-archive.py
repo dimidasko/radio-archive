@@ -20,8 +20,6 @@ def get_mp3_url(session_url):
         return None
 
 def scrape_show(base_url, filename):
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-
     # Load existing data
     if os.path.exists(filename):
         with open(filename, 'r', encoding='utf-8') as f:
