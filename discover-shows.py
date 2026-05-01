@@ -1,3 +1,5 @@
+# creates the available_shows.json by detecting all available shows in all main radio stations
+# and then parses the weekly schedule for the main radio stations to find air times each show is played throughout the week
 import requests
 from bs4 import BeautifulSoup
 import json
