@@ -1,0 +1,37 @@
+[
+    {
+        "station": "ΕΡΤNEWS RADIO",
+        "title": "ΚΑΘΡΕΦΤΗΣ",
+        "url": "https://www.ertecho.gr/radio/ertnewsradio/show/kathreftis/",
+        "air_time": "04/05 Δευτέρα 20:00-21:00 | 05/05 Τρίτη 20:00-21:00 | 06/05 Τετάρτη 20:00-21:00 | 07/05 Πέμπτη 20:00-21:00",
+        "filename": "kathreftis.json"
+    }, 
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΛΑΝΟΔΙΕΣ ΜΟΥΣΙΚΕΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/planodies-mousikes-deftero/",
+        "air_time": "04/05 Δευτέρα 22:00-00:00 | 05/05 Τρίτη 22:00-00:00 | 06/05 Τετάρτη 22:00-00:00 | 07/05 Πέμπτη 22:00-00:00",
+        "filename": "planodies-mousikes-deftero.json"
+    },
+    {
+        "station": "ΤΡΙΤΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΑΝΑΖΗΤΩΝΤΑΣ ΤΗΝ ΚΥΡΙΑ ΜΕ ΤΗ ΣΤΡΥΧΝΙΝΗ",
+        "url": "https://www.ertecho.gr/radio/trito/show/anazitontas-tin-kyria-me-ti-stryxnini/",
+        "air_time": "04/05 Δευτέρα 12:00-13:00 | 05/05 Τρίτη 12:00-13:00 | 06/05 Τετάρτη 12:00-13:00 | 07/05 Πέμπτη 12:00-13:00",
+        "filename": "anazitontas-tin-kyria-me-ti-stryxnini.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΠΡΕΠΕΙ ΝΑ ΞΕΡΕΙΣ ΜΗΧΑΝΗ ΝΑ ΚΟΨΕΙΣ ΜΑΥΡΑ ΜΑΤΙΑ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/prepei-na-ksereis-mixani-na-kopseis-mayra-matia/",
+        "air_time": "04/05 Δευτέρα 21:00-22:00 | 05/05 Τρίτη 21:00-22:00 | 06/05 Τετάρτη 21:00-22:00 | 07/05 Πέμπτη 21:00-22:00",
+        "filename": "prepei-na-ksereis-mixani-na-kopseis-mayra-matia.json"
+    },
+    {
+        "station": "ΔΕΥΤΕΡΟ ΠΡΟΓΡΑΜΜΑ",
+        "title": "ΗΜΕΡΟΛΟΓΙΟ ΚΑΤΑΣΤΡΩΜΑΤΟΣ",
+        "url": "https://www.ertecho.gr/radio/deftero/show/imerologio-katastromatos-deftero/",
+        "air_time": "04/05 Δευτέρα 20:00-21:00 | 05/05 Τρίτη 20:00-21:00 | 06/05 Τετάρτη 20:00-21:00 | 07/05 Πέμπτη 20:00-21:00",
+        "filename": "imerologio-katastromatos-deftero.json"
+    }
+]
